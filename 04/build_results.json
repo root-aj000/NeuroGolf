@@ -20,9 +20,9 @@
     "solver": "solve_1b2d62fb"
   },
   "task067": {
-    "status": "error",
-    "method": "hsplit_first",
-    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task067.onnx failed:This is an inva"
+    "status": "skip",
+    "method": "complex: ['hsplit', 'first']",
+    "solver": "solve_2dee498d"
   },
   "task070": {
     "status": "skip",
@@ -45,9 +45,9 @@
     "solver": "solve_46442a0e"
   },
   "task108": {
-    "status": "error",
-    "method": "rot180_down2_rot180_up4",
-    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task108.onnx failed:This is an inva"
+    "status": "skip",
+    "method": "complex: ['rot180', 'downscale', 'rot180', 'upscale']",
+    "solver": "solve_46f33fce"
   },
   "task116": {
     "status": "ok",
@@ -60,9 +60,9 @@
     "solver": "solve_5582e5ca"
   },
   "task130": {
-    "status": "error",
-    "method": "replace(5,0)_downscale(3)",
-    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task130.onnx failed:This is an inva"
+    "status": "skip",
+    "method": "complex: ['replace', 'downscale']",
+    "solver": "solve_5614dbcf"
   },
   "task135": {
     "status": "skip",
@@ -225,9 +225,9 @@
     "solver": "solve_cf98881b"
   },
   "task326": {
-    "status": "error",
-    "method": "crop",
-    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task326.onnx failed:This is an inva"
+    "status": "skip",
+    "method": "complex: ['crop']",
+    "solver": "solve_d10ecb37"
   },
   "task337": {
     "status": "ok",

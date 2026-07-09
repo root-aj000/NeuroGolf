@@ -621,4 +621,4 @@ def get_complex_builder(solver_name, src):
     if solver_name == 'solve_46f33fce':  # task108: rot180 -> downscale(2) -> rot180 -> upscale(4)
         return build_rot180_downscale_rot180_upscale(2, 4), "rot180_down2_rot180_up4"
 
-    return None, f"complex: {ops}"
+    return None, f"complex: {solver_name}"
