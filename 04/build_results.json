@@ -20,8 +20,8 @@
     "solver": "solve_1b2d62fb"
   },
   "task067": {
-    "status": "skip",
-    "method": "complex: ['hsplit', 'first']",
+    "status": "mismatch",
+    "method": "hsplit_first",
     "solver": "solve_2dee498d"
   },
   "task070": {
@@ -45,8 +45,8 @@
     "solver": "solve_46442a0e"
   },
   "task108": {
-    "status": "skip",
-    "method": "complex: ['rot180', 'downscale', 'rot180', 'upscale']",
+    "status": "mismatch",
+    "method": "rot180_down2_rot180_up4",
     "solver": "solve_46f33fce"
   },
   "task116": {
@@ -60,8 +60,8 @@
     "solver": "solve_5582e5ca"
   },
   "task130": {
-    "status": "skip",
-    "method": "complex: ['replace', 'downscale']",
+    "status": "ok",
+    "method": "replace(5,0)_downscale(3)",
     "solver": "solve_5614dbcf"
   },
   "task135": {
@@ -225,8 +225,8 @@
     "solver": "solve_cf98881b"
   },
   "task326": {
-    "status": "skip",
-    "method": "complex: ['crop']",
+    "status": "ok",
+    "method": "crop",
     "solver": "solve_d10ecb37"
   },
   "task337": {
