@@ -1,0 +1,267 @@
+{
+  "task001": {
+    "status": "skip",
+    "method": "complex: ['hupscale', 'vupscale', 'hconcat', 'hconcat', 'vconcat', 'vconcat', 'cellwise']",
+    "solver": "solve_007bbfb7"
+  },
+  "task006": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'lefthalf', 'righthalf', 'vmirror', 'cellwise', 'replace']",
+    "solver": "solve_0520fde7"
+  },
+  "task016": {
+    "status": "ok",
+    "method": "multi_switch(4)",
+    "solver": "solve_0d3d703e"
+  },
+  "task026": {
+    "status": "skip",
+    "method": "complex: ['lefthalf', 'righthalf', 'ofcolor', 'ofcolor', 'intersection', 'replace', 'fill']",
+    "solver": "solve_1b2d62fb"
+  },
+  "task067": {
+    "status": "error",
+    "method": "hsplit_first",
+    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task067.onnx failed:This is an inva"
+  },
+  "task070": {
+    "status": "skip",
+    "method": "complex: ['ofcolor', 'delta', 'fill']",
+    "solver": "solve_32597951"
+  },
+  "task083": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'hconcat', 'hmirror', 'vconcat']",
+    "solver": "solve_3af2c5a8"
+  },
+  "task087": {
+    "status": "ok",
+    "method": "rot180",
+    "solver": "solve_3c9b0459"
+  },
+  "task106": {
+    "status": "skip",
+    "method": "complex: ['rot90', 'rot180', 'rot270', 'hconcat', 'hconcat', 'vconcat']",
+    "solver": "solve_46442a0e"
+  },
+  "task108": {
+    "status": "error",
+    "method": "rot180_down2_rot180_up4",
+    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task108.onnx failed:This is an inva"
+  },
+  "task116": {
+    "status": "ok",
+    "method": "hmirror_vconcat",
+    "solver": "solve_4c4377d9"
+  },
+  "task129": {
+    "status": "skip",
+    "method": "complex: ['mostcolor', 'canvas']",
+    "solver": "solve_5582e5ca"
+  },
+  "task130": {
+    "status": "error",
+    "method": "replace(5,0)_downscale(3)",
+    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task130.onnx failed:This is an inva"
+  },
+  "task135": {
+    "status": "skip",
+    "method": "complex: ['tojvec', 'crop']",
+    "solver": "solve_5bd6f4ac"
+  },
+  "task140": {
+    "status": "ok",
+    "method": "rot180",
+    "solver": "solve_3c9b0459"
+  },
+  "task142": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'hconcat', 'hmirror', 'vconcat']",
+    "solver": "solve_3af2c5a8"
+  },
+  "task144": {
+    "status": "skip",
+    "method": "complex: ['tophalf', 'bottomhalf', 'astuple', 'ofcolor', 'ofcolor', 'intersection', 'canvas', 'fill']",
+    "solver": "solve_6430c8c4"
+  },
+  "task150": {
+    "status": "ok",
+    "method": "vmirror",
+    "solver": "solve_67a3c6ac"
+  },
+  "task152": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'hconcat', 'hmirror', 'vconcat']",
+    "solver": "solve_3af2c5a8"
+  },
+  "task155": {
+    "status": "ok",
+    "method": "hmirror",
+    "solver": "solve_68b16354"
+  },
+  "task164": {
+    "status": "ok",
+    "method": "vmirror_hconcat",
+    "solver": "solve_6d0aefbc"
+  },
+  "task172": {
+    "status": "ok",
+    "method": "vconcat_hmirror",
+    "solver": "solve_6fa7a44f"
+  },
+  "task179": {
+    "status": "ok",
+    "method": "dmirror",
+    "solver": "solve_74dd1130"
+  },
+  "task189": {
+    "status": "skip",
+    "method": "complex: ['ofcolor', 'subgrid', 'ofcolor', 'replace', 'replace', 'compress', 'upscale', 'fill']",
+    "solver": "solve_7c008303"
+  },
+  "task194": {
+    "status": "skip",
+    "method": "complex: ['rot90', 'rot180', 'rot270', 'hconcat', 'hconcat', 'vconcat']",
+    "solver": "solve_46442a0e"
+  },
+  "task210": {
+    "status": "ok",
+    "method": "vconcat_hmirror",
+    "solver": "solve_6fa7a44f"
+  },
+  "task211": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'hconcat', 'hmirror', 'vconcat', 'vconcat', 'hmirror']",
+    "solver": "solve_8d5021e8"
+  },
+  "task223": {
+    "status": "ok",
+    "method": "upscale(3)",
+    "solver": "solve_9172f3a0"
+  },
+  "task227": {
+    "status": "skip",
+    "method": "complex: ['tophalf', 'bottomhalf', 'ofcolor', 'ofcolor', 'astuple', 'canvas', 'intersection', 'fill']",
+    "solver": "solve_94f9d214"
+  },
+  "task241": {
+    "status": "ok",
+    "method": "dmirror",
+    "solver": "solve_74dd1130"
+  },
+  "task242": {
+    "status": "skip",
+    "method": "complex: ['vmirror', 'ofcolor', 'subgrid']",
+    "solver": "solve_9ecd008a"
+  },
+  "task257": {
+    "status": "skip",
+    "method": "complex: ['tophalf', 'bottomhalf', 'lefthalf', 'righthalf', 'lefthalf', 'righthalf', 'ofcolor', 'ofcolor', 'ofcolor', 'fill', 'fill', 'fill']",
+    "solver": "solve_a68b268e"
+  },
+  "task267": {
+    "status": "skip",
+    "method": "complex: ['leastcolor', 'replace', 'leastcolor', 'replace']",
+    "solver": "solve_aabf363d"
+  },
+  "task269": {
+    "status": "skip",
+    "method": "complex: ['colorcount', 'subtract', 'upscale']",
+    "solver": "solve_ac0a08a4"
+  },
+  "task274": {
+    "status": "skip",
+    "method": "complex: ['ofcolor', 'ofcolor', 'height', 'decrement', 'height', 'subtract', 'astuple', 'canvas', 'subtract', 'astuple', 'canvas', 'hconcat', 'hsplit', 'first', 'last', 'vmirror', 'vconcat', 'astuple', 'canvas', 'vconcat']",
+    "solver": "solve_b0c4d837"
+  },
+  "task276": {
+    "status": "ok",
+    "method": "multi_switch(4)",
+    "solver": "solve_0d3d703e"
+  },
+  "task289": {
+    "status": "skip",
+    "method": "complex: ['numcolors', 'decrement', 'upscale']",
+    "solver": "solve_b91ae062"
+  },
+  "task299": {
+    "status": "skip",
+    "method": "complex: ['ofcolor', 'ofcolor', 'center', 'center', 'hfrontier', 'vfrontier', 'intersection', 'fill', 'fill', 'fill']",
+    "solver": "solve_bdad9b1f"
+  },
+  "task304": {
+    "status": "skip",
+    "method": "complex: ['mostcolor', 'hconcat', 'upscale', 'ofcolor', 'asindices', 'difference', 'hconcat', 'vconcat', 'vconcat', 'fill']",
+    "solver": "solve_c3e719e8"
+  },
+  "task307": {
+    "status": "ok",
+    "method": "upscale(2)",
+    "solver": "solve_c59eb873"
+  },
+  "task309": {
+    "status": "ok",
+    "method": "replace(7,5)",
+    "solver": "solve_c8f0f002"
+  },
+  "task311": {
+    "status": "ok",
+    "method": "vmirror_hconcat",
+    "solver": "solve_6d0aefbc"
+  },
+  "task312": {
+    "status": "skip",
+    "method": "complex: ['height', 'width', 'ofcolor', 'astuple', 'crop', 'hupscale', 'fill']",
+    "solver": "solve_c9f8e694"
+  },
+  "task318": {
+    "status": "skip",
+    "method": "complex: ['tophalf', 'bottomhalf', 'ofcolor', 'ofcolor', 'intersection', 'astuple', 'canvas', 'fill']",
+    "solver": "solve_ce4f8723"
+  },
+  "task321": {
+    "status": "skip",
+    "method": "complex: ['hsplit', 'first', 'remove', 'first', 'last', 'ofcolor', 'ofcolor', 'fill', 'fill']",
+    "solver": "solve_cf98881b"
+  },
+  "task326": {
+    "status": "error",
+    "method": "crop",
+    "error": "[ONNXRuntimeError] : 10 : INVALID_GRAPH : Load model from models/task326.onnx failed:This is an inva"
+  },
+  "task337": {
+    "status": "ok",
+    "method": "switch(5,8)",
+    "solver": "solve_d511f180"
+  },
+  "task373": {
+    "status": "skip",
+    "method": "complex: ['astuple', 'crop', 'hmirror', 'hconcat', 'hconcat', 'hconcat']",
+    "solver": "solve_e9afcf9a"
+  },
+  "task380": {
+    "status": "ok",
+    "method": "rot270",
+    "solver": "solve_ed36ccf7"
+  },
+  "task385": {
+    "status": "skip",
+    "method": "complex: ['bottomhalf', 'hmirror', 'vconcat']",
+    "solver": "solve_f25ffba3"
+  },
+  "task386": {
+    "status": "skip",
+    "method": "complex: ['lefthalf', 'righthalf', 'ofcolor', 'ofcolor', 'intersection', 'shape', 'canvas', 'fill']",
+    "solver": "solve_f2829549"
+  },
+  "task389": {
+    "status": "skip",
+    "method": "complex: ['palette', 'first', 'last', 'switch', 'replace']",
+    "solver": "solve_f76d97a5"
+  },
+  "task395": {
+    "status": "skip",
+    "method": "complex: ['tophalf', 'bottomhalf', 'shape', 'ofcolor', 'ofcolor', 'intersection', 'canvas', 'fill']",
+    "solver": "solve_fafffa47"
+  }
+}
