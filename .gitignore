@@ -4,3 +4,7 @@ __pycache__/
 *.md
 *.txt
 *.png
+*.pdf
+venv/
+neurogolf-2026/
+*.zip
