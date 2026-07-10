@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.onnx
-*.md
+
 *.txt
 *.png
 *.pdf
