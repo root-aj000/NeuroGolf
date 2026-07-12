@@ -1,0 +1,6360 @@
+{
+  "task001": {
+    "solver": "solve_007bbfb7",
+    "primitives": [
+      "cellwise",
+      "hconcat",
+      "hupscale",
+      "vconcat",
+      "vupscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  "task002": {
+    "solver": "solve_00d62c1b",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fill",
+      "mfilter",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task003": {
+    "solver": "solve_017c7c7b",
+    "primitives": [
+      "bottomhalf",
+      "branch",
+      "crop",
+      "equality",
+      "replace",
+      "tophalf",
+      "vconcat"
+    ],
+    "input_size": "6x3",
+    "output_size": "9x3"
+  },
+  "task004": {
+    "solver": "solve_025d127b",
+    "primitives": [
+      "apply",
+      "compose",
+      "difference",
+      "lbind",
+      "mapply",
+      "merge",
+      "move",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "14x9",
+    "output_size": "14x9"
+  },
+  "task005": {
+    "solver": "solve_045e512c",
+    "primitives": [
+      "argmax",
+      "chain",
+      "compose",
+      "double",
+      "fork",
+      "interval",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind",
+      "remove"
+    ],
+    "input_size": "21x21",
+    "output_size": "21x21"
+  },
+  "task006": {
+    "solver": "solve_0520fde7",
+    "primitives": [
+      "cellwise",
+      "lefthalf",
+      "replace",
+      "righthalf",
+      "vmirror"
+    ],
+    "input_size": "3x7",
+    "output_size": "3x3"
+  },
+  "task007": {
+    "solver": "solve_05269061",
+    "primitives": [
+      "apply",
+      "lbind",
+      "mapply",
+      "merge",
+      "neighbors",
+      "objects",
+      "paint",
+      "rbind",
+      "shift"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task008": {
+    "solver": "solve_05f2a901",
+    "primitives": [
+      "colorfilter",
+      "first",
+      "gravitate",
+      "move",
+      "objects"
+    ],
+    "input_size": "14x9",
+    "output_size": "14x9"
+  },
+  "task009": {
+    "solver": "solve_06df4c85",
+    "primitives": [
+      "apply",
+      "argmax",
+      "colorfilter",
+      "compose",
+      "difference",
+      "fill",
+      "fork",
+      "merge",
+      "mfilter",
+      "mostcolor",
+      "ofcolor",
+      "paint",
+      "partition",
+      "power",
+      "product",
+      "remove",
+      "sfilter"
+    ],
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  "task010": {
+    "solver": "solve_08ed6ac7",
+    "primitives": [
+      "interval",
+      "mpapply",
+      "objects",
+      "order",
+      "paint",
+      "size",
+      "totuple"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task011": {
+    "solver": "solve_09629e4f",
+    "primitives": [
+      "argmin",
+      "fill",
+      "normalize",
+      "objects",
+      "ofcolor",
+      "paint",
+      "upscale"
+    ],
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  "task012": {
+    "solver": "solve_0962bcdd",
+    "primitives": [
+      "fill",
+      "fork",
+      "leastcolor",
+      "mapply",
+      "objects",
+      "ofcolor",
+      "replace"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task013": {
+    "solver": "solve_0a938d79",
+    "primitives": [
+      "branch",
+      "chain",
+      "compose",
+      "fgpartition",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "paint",
+      "portrait",
+      "rbind",
+      "width"
+    ],
+    "input_size": "10x25",
+    "output_size": "10x25"
+  },
+  "task014": {
+    "solver": "solve_0b148d64",
+    "primitives": [
+      "argmin",
+      "partition",
+      "subgrid"
+    ],
+    "input_size": "21x21",
+    "output_size": "10x10"
+  },
+  "task015": {
+    "solver": "solve_0ca9ddb6",
+    "primitives": [
+      "fill",
+      "mapply",
+      "ofcolor"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task016": {
+    "solver": "solve_0d3d703e",
+    "primitives": [
+      "switch"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task017": {
+    "solver": "solve_0dfd9992",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "colorfilter",
+      "crop",
+      "decrement",
+      "difference",
+      "height",
+      "hperiod",
+      "lbind",
+      "mapply",
+      "merge",
+      "neighbors",
+      "paint",
+      "partition",
+      "toivec",
+      "tojvec",
+      "vperiod",
+      "width"
+    ],
+    "input_size": "21x21",
+    "output_size": "21x21"
+  },
+  "task018": {
+    "solver": "solve_0e206a2e",
+    "primitives": [
+      "apply",
+      "argmax",
+      "astuple",
+      "chain",
+      "combine",
+      "compose",
+      "cover",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "palette",
+      "product",
+      "rbind",
+      "remove",
+      "sfilter",
+      "totuple"
+    ],
+    "input_size": "14x18",
+    "output_size": "14x18"
+  },
+  "task019": {
+    "solver": "solve_10fcaaa3",
+    "primitives": [
+      "hconcat",
+      "leastcolor",
+      "mapply",
+      "ofcolor",
+      "underfill",
+      "vconcat"
+    ],
+    "input_size": "2x4",
+    "output_size": "4x8"
+  },
+  "task020": {
+    "solver": "solve_11852cab",
+    "primitives": [
+      "cmirror",
+      "dmirror",
+      "hmirror",
+      "merge",
+      "objects",
+      "paint",
+      "vmirror"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task021": {
+    "solver": "solve_1190e5a7",
+    "primitives": [
+      "apply",
+      "astuple",
+      "canvas",
+      "difference",
+      "frontiers",
+      "increment",
+      "mostcolor",
+      "sfilter"
+    ],
+    "input_size": "15x15",
+    "output_size": "2x4"
+  },
+  "task022": {
+    "solver": "solve_137eaa0f",
+    "primitives": [
+      "canvas",
+      "chain",
+      "fork",
+      "mapply",
+      "matcher",
+      "objects",
+      "paint",
+      "rbind",
+      "shift"
+    ],
+    "input_size": "11x11",
+    "output_size": "3x3"
+  },
+  "task023": {
+    "solver": "solve_150deff5",
+    "primitives": [
+      "asobject",
+      "astuple",
+      "canvas",
+      "dmirror",
+      "fill",
+      "hmirror",
+      "lbind",
+      "mapply",
+      "occurrences",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "9x11",
+    "output_size": "9x11"
+  },
+  "task024": {
+    "solver": "solve_178fcbfb",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "difference",
+      "fill",
+      "fork",
+      "mapply",
+      "objects",
+      "ofcolor",
+      "paint"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task025": {
+    "solver": "solve_1a07d186",
+    "primitives": [
+      "apply",
+      "chain",
+      "compose",
+      "cover",
+      "difference",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "rbind",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "18x19",
+    "output_size": "18x19"
+  },
+  "task026": {
+    "solver": "solve_1b2d62fb",
+    "primitives": [
+      "fill",
+      "intersection",
+      "lefthalf",
+      "ofcolor",
+      "replace",
+      "righthalf"
+    ],
+    "input_size": "5x7",
+    "output_size": "5x3"
+  },
+  "task027": {
+    "solver": "solve_1b60fb0c",
+    "primitives": [
+      "apply",
+      "argmax",
+      "compose",
+      "lbind",
+      "mapply",
+      "neighbors",
+      "ofcolor",
+      "rot90",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task028": {
+    "solver": "solve_1bfc4729",
+    "primitives": [
+      "asindices",
+      "bottomhalf",
+      "box",
+      "combine",
+      "fill",
+      "hfrontier",
+      "hmirror",
+      "leastcolor",
+      "replace",
+      "tophalf",
+      "vconcat"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task029": {
+    "solver": "solve_1c786137",
+    "primitives": [
+      "argmax",
+      "objects",
+      "subgrid",
+      "trim"
+    ],
+    "input_size": "23x21",
+    "output_size": "6x8"
+  },
+  "task030": {
+    "solver": "solve_1caeab9d",
+    "primitives": [
+      "chain",
+      "cover",
+      "fork",
+      "lbind",
+      "lowermost",
+      "mapply",
+      "merge",
+      "objects",
+      "ofcolor",
+      "paint"
+    ],
+    "input_size": "5x10",
+    "output_size": "5x10"
+  },
+  "task031": {
+    "solver": "solve_0b148d64",
+    "primitives": [
+      "argmin",
+      "partition",
+      "subgrid"
+    ],
+    "input_size": "10x12",
+    "output_size": "4x4"
+  },
+  "task032": {
+    "solver": "solve_1e0a9b12",
+    "primitives": [
+      "apply",
+      "rbind",
+      "rot270",
+      "rot90"
+    ],
+    "input_size": "4x4",
+    "output_size": "4x4"
+  },
+  "task033": {
+    "solver": "solve_1e32b0e9",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "compose",
+      "crop",
+      "difference",
+      "divide",
+      "extract",
+      "first",
+      "height",
+      "initset",
+      "interval",
+      "lbind",
+      "mapply",
+      "matcher",
+      "mostcolor",
+      "palette",
+      "papply",
+      "partition",
+      "product",
+      "subtract",
+      "totuple",
+      "underfill"
+    ],
+    "input_size": "17x17",
+    "output_size": "17x17"
+  },
+  "task034": {
+    "solver": "solve_1f0c79e5",
+    "primitives": [
+      "apply",
+      "combine",
+      "compose",
+      "interval",
+      "invert",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "ofcolor",
+      "paint",
+      "prapply",
+      "recolor",
+      "replace",
+      "shift",
+      "ulcorner"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task035": {
+    "solver": "solve_1f642eb9",
+    "primitives": [
+      "compose",
+      "difference",
+      "first",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task036": {
+    "solver": "solve_0b148d64",
+    "primitives": [
+      "argmin",
+      "partition",
+      "subgrid"
+    ],
+    "input_size": "30x30",
+    "output_size": "5x3"
+  },
+  "task037": {
+    "solver": "solve_1f876c06",
+    "primitives": [
+      "compose",
+      "fgpartition",
+      "fork",
+      "mapply",
+      "paint",
+      "power"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task038": {
+    "solver": "solve_1fad071e",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "colorfilter",
+      "hconcat",
+      "objects",
+      "size",
+      "sizefilter",
+      "subtract"
+    ],
+    "input_size": "9x9",
+    "output_size": "1x5"
+  },
+  "task039": {
+    "solver": "solve_2013d3e2",
+    "primitives": [
+      "first",
+      "lefthalf",
+      "objects",
+      "subgrid",
+      "tophalf"
+    ],
+    "input_size": "10x10",
+    "output_size": "3x3"
+  },
+  "task040": {
+    "solver": "solve_2204b7a8",
+    "primitives": [
+      "branch",
+      "compose",
+      "decrement",
+      "greater",
+      "index",
+      "lbind",
+      "objects",
+      "replace",
+      "shape"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task041": {
+    "solver": "solve_22168020",
+    "primitives": [
+      "compose",
+      "fork",
+      "lbind",
+      "mapply",
+      "paint",
+      "palette",
+      "remove"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task042": {
+    "solver": "solve_22233c11",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task043": {
+    "solver": "solve_2281f1f4",
+    "primitives": [
+      "apply",
+      "fork",
+      "ofcolor",
+      "power",
+      "product",
+      "remove",
+      "underfill",
+      "urcorner"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task044": {
+    "solver": "solve_228f6490",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "difference",
+      "extract",
+      "first",
+      "last",
+      "matcher",
+      "move",
+      "objects",
+      "rbind",
+      "sfilter",
+      "subtract",
+      "ulcorner"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task045": {
+    "solver": "solve_1f876c06",
+    "primitives": [
+      "compose",
+      "fgpartition",
+      "fork",
+      "mapply",
+      "paint",
+      "power"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task046": {
+    "solver": "solve_234bbc79",
+    "primitives": [
+      "apply",
+      "astuple",
+      "canvas",
+      "chain",
+      "compose",
+      "decrement",
+      "first",
+      "fork",
+      "initset",
+      "lbind",
+      "objects",
+      "order",
+      "paint",
+      "power",
+      "rbind",
+      "size",
+      "width"
+    ],
+    "input_size": "3x9",
+    "output_size": "3x7"
+  },
+  "task047": {
+    "solver": "solve_23581191",
+    "primitives": [
+      "apply",
+      "compose",
+      "fill",
+      "fork",
+      "mapply",
+      "objects",
+      "paint"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task048": {
+    "solver": "solve_239be575",
+    "primitives": [
+      "branch",
+      "canvas",
+      "compose",
+      "greater",
+      "lbind",
+      "objects",
+      "sfilter",
+      "size"
+    ],
+    "input_size": "5x5",
+    "output_size": "1x1"
+  },
+  "task049": {
+    "solver": "solve_0b148d64",
+    "primitives": [
+      "argmin",
+      "partition",
+      "subgrid"
+    ],
+    "input_size": "10x10",
+    "output_size": "3x3"
+  },
+  "task050": {
+    "solver": "solve_253bf280",
+    "primitives": [
+      "compose",
+      "fill",
+      "fork",
+      "mfilter",
+      "ofcolor",
+      "prapply",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "7x13",
+    "output_size": "7x13"
+  },
+  "task051": {
+    "solver": "solve_25d487eb",
+    "primitives": [
+      "center",
+      "leastcolor",
+      "merge",
+      "objects",
+      "ofcolor",
+      "shoot",
+      "subtract",
+      "underfill"
+    ],
+    "input_size": "10x15",
+    "output_size": "10x15"
+  },
+  "task052": {
+    "solver": "solve_25d8a9c8",
+    "primitives": [
+      "asindices",
+      "difference",
+      "fill",
+      "mfilter",
+      "objects",
+      "sizefilter",
+      "toindices"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task053": {
+    "solver": "solve_25ff71a9",
+    "primitives": [
+      "first",
+      "move",
+      "objects"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task054": {
+    "solver": "solve_264363fd",
+    "primitives": [
+      "add",
+      "argmin",
+      "astuple",
+      "branch",
+      "center",
+      "compose",
+      "cover",
+      "equality",
+      "fill",
+      "fork",
+      "height",
+      "index",
+      "initset",
+      "invert",
+      "lbind",
+      "mapply",
+      "mostcolor",
+      "normalize",
+      "objects",
+      "occurrences",
+      "ofcolor",
+      "paint",
+      "rbind",
+      "shift",
+      "width"
+    ],
+    "input_size": "30x30",
+    "output_size": "30x30"
+  },
+  "task055": {
+    "solver": "solve_272f95fa",
+    "primitives": [
+      "apply",
+      "argmax",
+      "argmin",
+      "colorfilter",
+      "compose",
+      "extract",
+      "fill",
+      "lbind",
+      "objects",
+      "rbind",
+      "remove",
+      "sfilter"
+    ],
+    "input_size": "18x19",
+    "output_size": "18x19"
+  },
+  "task056": {
+    "solver": "solve_27a28665",
+    "primitives": [
+      "branch",
+      "canvas",
+      "equality",
+      "objects",
+      "valmax"
+    ],
+    "input_size": "3x3",
+    "output_size": "1x1"
+  },
+  "task057": {
+    "solver": "solve_28bf18c6",
+    "primitives": [
+      "first",
+      "hconcat",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "8x8",
+    "output_size": "3x6"
+  },
+  "task058": {
+    "solver": "solve_28e73c20",
+    "primitives": [
+      "astuple",
+      "branch",
+      "canvas",
+      "chain",
+      "compose",
+      "even",
+      "fill",
+      "fork",
+      "hupscale",
+      "initset",
+      "insert",
+      "lbind",
+      "power",
+      "rbind",
+      "subtract",
+      "upscale",
+      "vupscale",
+      "width"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task059": {
+    "solver": "solve_29623171",
+    "primitives": [
+      "apply",
+      "compose",
+      "fill",
+      "fork",
+      "interval",
+      "leastcolor",
+      "matcher",
+      "mfilter",
+      "product",
+      "rbind",
+      "valmax"
+    ],
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  "task060": {
+    "solver": "solve_29c11459",
+    "primitives": [
+      "apply",
+      "compose",
+      "fill",
+      "fork",
+      "lefthalf",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "righthalf",
+      "shift"
+    ],
+    "input_size": "5x11",
+    "output_size": "5x11"
+  },
+  "task061": {
+    "solver": "solve_0dfd9992",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "colorfilter",
+      "crop",
+      "decrement",
+      "difference",
+      "height",
+      "hperiod",
+      "lbind",
+      "mapply",
+      "merge",
+      "neighbors",
+      "paint",
+      "partition",
+      "toivec",
+      "tojvec",
+      "vperiod",
+      "width"
+    ],
+    "input_size": "18x18",
+    "output_size": "18x18"
+  },
+  "task062": {
+    "solver": "solve_2bcee788",
+    "primitives": [
+      "add",
+      "argmax",
+      "argmin",
+      "asobject",
+      "astuple",
+      "branch",
+      "compose",
+      "first",
+      "hline",
+      "hmirror",
+      "last",
+      "matcher",
+      "mostcolor",
+      "multiply",
+      "objects",
+      "paint",
+      "position",
+      "replace",
+      "sfilter",
+      "shape",
+      "shift",
+      "subgrid",
+      "ulcorner",
+      "vmirror"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task063": {
+    "solver": "solve_2bee17df",
+    "primitives": [
+      "astuple",
+      "compose",
+      "height",
+      "interval",
+      "lbind",
+      "mapply",
+      "matcher",
+      "merge",
+      "pair",
+      "rbind",
+      "rot90",
+      "sfilter",
+      "subtract",
+      "underfill"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task064": {
+    "solver": "solve_2c608aff",
+    "primitives": [
+      "argmax",
+      "fork",
+      "leastcolor",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "prapply",
+      "toindices",
+      "underfill"
+    ],
+    "input_size": "9x12",
+    "output_size": "9x12"
+  },
+  "task065": {
+    "solver": "solve_2dc579da",
+    "primitives": [
+      "argmax",
+      "mapply",
+      "rbind",
+      "vsplit"
+    ],
+    "input_size": "5x5",
+    "output_size": "2x2"
+  },
+  "task066": {
+    "solver": "solve_2dd70a9a",
+    "primitives": [
+      "add",
+      "argmax",
+      "astuple",
+      "both",
+      "branch",
+      "center",
+      "colorfilter",
+      "combine",
+      "compose",
+      "connect",
+      "cover",
+      "crement",
+      "difference",
+      "fill",
+      "gravitate",
+      "greater",
+      "initset",
+      "merge",
+      "objects",
+      "ofcolor",
+      "other",
+      "rbind",
+      "replace",
+      "sfilter",
+      "shoot",
+      "subtract",
+      "underfill",
+      "vline"
+    ],
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  "task067": {
+    "solver": "solve_2dee498d",
+    "primitives": [
+      "first",
+      "hsplit"
+    ],
+    "input_size": "3x9",
+    "output_size": "3x3"
+  },
+  "task068": {
+    "solver": "solve_31aa019c",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "fill",
+      "first",
+      "initset",
+      "leastcolor",
+      "neighbors",
+      "ofcolor"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task069": {
+    "solver": "solve_321b1fc6",
+    "primitives": [
+      "apply",
+      "colorfilter",
+      "cover",
+      "difference",
+      "first",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "paint"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task070": {
+    "solver": "solve_32597951",
+    "primitives": [
+      "delta",
+      "fill",
+      "ofcolor"
+    ],
+    "input_size": "17x17",
+    "output_size": "17x17"
+  },
+  "task071": {
+    "solver": "solve_3345333e",
+    "primitives": [
+      "apply",
+      "argmax",
+      "compose",
+      "cover",
+      "fill",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "neighbors",
+      "ofcolor",
+      "rbind",
+      "vmirror"
+    ],
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  "task072": {
+    "solver": "solve_3428a4f5",
+    "primitives": [
+      "astuple",
+      "bottomhalf",
+      "canvas",
+      "combine",
+      "difference",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "tophalf"
+    ],
+    "input_size": "13x5",
+    "output_size": "6x5"
+  },
+  "task073": {
+    "solver": "solve_3618c87e",
+    "primitives": [
+      "merge",
+      "move",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task074": {
+    "solver": "solve_3631a71a",
+    "primitives": [
+      "apply",
+      "crop",
+      "dmirror",
+      "lbind",
+      "merge",
+      "objects",
+      "paint",
+      "papply",
+      "replace",
+      "shape",
+      "shift",
+      "subtract",
+      "vmirror"
+    ],
+    "input_size": "30x30",
+    "output_size": "30x30"
+  },
+  "task075": {
+    "solver": "solve_363442ee",
+    "primitives": [
+      "asobject",
+      "compose",
+      "crop",
+      "lbind",
+      "mapply",
+      "ofcolor",
+      "paint"
+    ],
+    "input_size": "9x13",
+    "output_size": "9x13"
+  },
+  "task076": {
+    "solver": "solve_36d67576",
+    "primitives": [
+      "apply",
+      "argmax",
+      "astuple",
+      "chain",
+      "combine",
+      "compose",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "product",
+      "rapply",
+      "rbind",
+      "totuple"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task077": {
+    "solver": "solve_36fdfd69",
+    "primitives": [
+      "apply",
+      "colorfilter",
+      "compose",
+      "downscale",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "product",
+      "sfilter",
+      "upscale"
+    ],
+    "input_size": "17x18",
+    "output_size": "17x18"
+  },
+  "task078": {
+    "solver": "solve_3906de3d",
+    "primitives": [
+      "apply",
+      "cmirror",
+      "rbind",
+      "rot270",
+      "switch"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task079": {
+    "solver": "solve_23b5c85d",
+    "primitives": [
+      "argmin",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "14x14",
+    "output_size": "3x3"
+  },
+  "task080": {
+    "solver": "solve_39e1d7f9",
+    "primitives": [
+      "add",
+      "apply",
+      "argmax",
+      "asobject",
+      "chain",
+      "color",
+      "colorfilter",
+      "crop",
+      "decrement",
+      "fgpartition",
+      "increment",
+      "last",
+      "lbind",
+      "mapply",
+      "mostcolor",
+      "multiply",
+      "objects",
+      "order",
+      "paint",
+      "power",
+      "rbind",
+      "remove",
+      "shape",
+      "subtract",
+      "ulcorner"
+    ],
+    "input_size": "24x24",
+    "output_size": "24x24"
+  },
+  "task081": {
+    "solver": "solve_3aa6fb7a",
+    "primitives": [
+      "mapply",
+      "objects",
+      "underfill"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task082": {
+    "solver": "solve_3ac3eb23",
+    "primitives": [
+      "chain",
+      "first",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "vconcat",
+      "vsplit"
+    ],
+    "input_size": "6x10",
+    "output_size": "6x10"
+  },
+  "task083": {
+    "solver": "solve_3af2c5a8",
+    "primitives": [
+      "hconcat",
+      "hmirror",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "3x4",
+    "output_size": "6x8"
+  },
+  "task084": {
+    "solver": "solve_3bd67248",
+    "primitives": [
+      "astuple",
+      "decrement",
+      "fill",
+      "height",
+      "shoot"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task085": {
+    "solver": "solve_3bdb4ada",
+    "primitives": [
+      "apply",
+      "compose",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "pair",
+      "papply",
+      "power",
+      "totuple"
+    ],
+    "input_size": "8x30",
+    "output_size": "8x30"
+  },
+  "task086": {
+    "solver": "solve_3befdf3e",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "initset",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "objects",
+      "other",
+      "palette",
+      "remove",
+      "switch",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task087": {
+    "solver": "solve_3c9b0459",
+    "primitives": [
+      "rot180"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task088": {
+    "solver": "solve_3de23699",
+    "primitives": [
+      "color",
+      "difference",
+      "fgpartition",
+      "first",
+      "replace",
+      "sizefilter",
+      "subgrid",
+      "trim"
+    ],
+    "input_size": "7x7",
+    "output_size": "3x3"
+  },
+  "task089": {
+    "solver": "solve_3e980e27",
+    "primitives": [
+      "argmax",
+      "astuple",
+      "chain",
+      "combine",
+      "compose",
+      "fork",
+      "initset",
+      "insert",
+      "invert",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind",
+      "remove",
+      "sfilter",
+      "vmirror"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task090": {
+    "solver": "solve_3eda0437",
+    "primitives": [
+      "argmax",
+      "chain",
+      "fill",
+      "fork",
+      "interval",
+      "lbind",
+      "mapply",
+      "prapply"
+    ],
+    "input_size": "3x30",
+    "output_size": "3x30"
+  },
+  "task091": {
+    "solver": "solve_3f7978a0",
+    "primitives": [
+      "add",
+      "crop",
+      "extract",
+      "fgpartition",
+      "matcher",
+      "shape",
+      "subtract",
+      "ulcorner"
+    ],
+    "input_size": "9x9",
+    "output_size": "5x5"
+  },
+  "task092": {
+    "solver": "solve_40853293",
+    "primitives": [
+      "apply",
+      "fork",
+      "mfilter",
+      "paint",
+      "partition"
+    ],
+    "input_size": "30x20",
+    "output_size": "30x20"
+  },
+  "task093": {
+    "solver": "solve_4093f84a",
+    "primitives": [
+      "apply",
+      "branch",
+      "hconcat",
+      "leastcolor",
+      "lefthalf",
+      "ofcolor",
+      "portrait",
+      "rbind",
+      "replace",
+      "righthalf"
+    ],
+    "input_size": "14x14",
+    "output_size": "14x14"
+  },
+  "task094": {
+    "solver": "solve_41e4d17e",
+    "primitives": [
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "underfill"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task095": {
+    "solver": "solve_4258a5f9",
+    "primitives": [
+      "fill",
+      "mapply",
+      "ofcolor"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task096": {
+    "solver": "solve_4290ef0e",
+    "primitives": [
+      "apply",
+      "astuple",
+      "branch",
+      "canvas",
+      "chain",
+      "compose",
+      "contained",
+      "decrement",
+      "double",
+      "fgpartition",
+      "fork",
+      "increment",
+      "interval",
+      "lbind",
+      "mostcolor",
+      "mpapply",
+      "objects",
+      "order",
+      "paint",
+      "pair",
+      "rbind",
+      "rot90",
+      "size"
+    ],
+    "input_size": "13x17",
+    "output_size": "7x7"
+  },
+  "task097": {
+    "solver": "solve_42a50994",
+    "primitives": [
+      "cover",
+      "merge",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "16x11",
+    "output_size": "16x11"
+  },
+  "task098": {
+    "solver": "solve_4347f46a",
+    "primitives": [
+      "fill",
+      "fork",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "18x16",
+    "output_size": "18x16"
+  },
+  "task099": {
+    "solver": "solve_444801d8",
+    "primitives": [
+      "chain",
+      "colorfilter",
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "rbind",
+      "underpaint"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task100": {
+    "solver": "solve_445eab21",
+    "primitives": [
+      "argmax",
+      "canvas",
+      "color",
+      "fork",
+      "objects"
+    ],
+    "input_size": "10x10",
+    "output_size": "2x2"
+  },
+  "task101": {
+    "solver": "solve_447fd412",
+    "primitives": [
+      "apply",
+      "argmax",
+      "chain",
+      "compose",
+      "fork",
+      "interval",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "paint",
+      "rapply"
+    ],
+    "input_size": "14x12",
+    "output_size": "14x12"
+  },
+  "task102": {
+    "solver": "solve_44d8ac46",
+    "primitives": [
+      "apply",
+      "fill",
+      "mfilter",
+      "objects"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task103": {
+    "solver": "solve_44f52bb0",
+    "primitives": [
+      "branch",
+      "canvas",
+      "equality",
+      "vmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "1x1"
+  },
+  "task104": {
+    "solver": "solve_4522001f",
+    "primitives": [
+      "astuple",
+      "branch",
+      "canvas",
+      "combine",
+      "contained",
+      "first",
+      "initset",
+      "objects",
+      "paint",
+      "rot180",
+      "rot270",
+      "rot90",
+      "shape",
+      "shift",
+      "toindices",
+      "upscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  "task105": {
+    "solver": "solve_4612dd53",
+    "primitives": [
+      "box",
+      "branch",
+      "fill",
+      "greater",
+      "mapply",
+      "ofcolor",
+      "shift",
+      "size",
+      "subgrid",
+      "ulcorner",
+      "underfill"
+    ],
+    "input_size": "9x13",
+    "output_size": "9x13"
+  },
+  "task106": {
+    "solver": "solve_46442a0e",
+    "primitives": [
+      "hconcat",
+      "rot180",
+      "rot270",
+      "rot90",
+      "vconcat"
+    ],
+    "input_size": "2x2",
+    "output_size": "4x4"
+  },
+  "task107": {
+    "solver": "solve_469497ad",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "combine",
+      "decrement",
+      "llcorner",
+      "numcolors",
+      "objects",
+      "paint",
+      "shoot",
+      "ulcorner",
+      "underfill",
+      "upscale"
+    ],
+    "input_size": "5x5",
+    "output_size": "10x10"
+  },
+  "task108": {
+    "solver": "solve_46f33fce",
+    "primitives": [
+      "downscale",
+      "rot180",
+      "upscale"
+    ],
+    "input_size": "10x10",
+    "output_size": "20x20"
+  },
+  "task109": {
+    "solver": "solve_47c1f68c",
+    "primitives": [
+      "cellwise",
+      "compress",
+      "hmirror",
+      "leastcolor",
+      "merge",
+      "mostcolor",
+      "objects",
+      "replace",
+      "vmirror"
+    ],
+    "input_size": "11x11",
+    "output_size": "10x10"
+  },
+  "task110": {
+    "solver": "solve_484b58aa",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "colorfilter",
+      "crop",
+      "difference",
+      "height",
+      "hperiod",
+      "lbind",
+      "mapply",
+      "merge",
+      "neighbors",
+      "paint",
+      "partition",
+      "power",
+      "toivec",
+      "tojvec",
+      "vperiod",
+      "width"
+    ],
+    "input_size": "29x29",
+    "output_size": "29x29"
+  },
+  "task111": {
+    "solver": "solve_48d8fb45",
+    "primitives": [
+      "extract",
+      "lbind",
+      "matcher",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "10x10",
+    "output_size": "3x3"
+  },
+  "task112": {
+    "solver": "solve_4938f0c2",
+    "primitives": [
+      "add",
+      "branch",
+      "fill",
+      "greater",
+      "height",
+      "hmirror",
+      "objects",
+      "ofcolor",
+      "shift",
+      "size",
+      "toivec",
+      "tojvec",
+      "vmirror",
+      "width"
+    ],
+    "input_size": "20x30",
+    "output_size": "20x30"
+  },
+  "task113": {
+    "solver": "solve_496994bd",
+    "primitives": [
+      "astuple",
+      "crop",
+      "halve",
+      "height",
+      "hmirror",
+      "vconcat",
+      "width"
+    ],
+    "input_size": "10x3",
+    "output_size": "10x3"
+  },
+  "task114": {
+    "solver": "solve_49d1d64f",
+    "primitives": [
+      "add",
+      "apply",
+      "asindices",
+      "asobject",
+      "canvas",
+      "chain",
+      "fork",
+      "lbind",
+      "paint",
+      "rbind",
+      "shape",
+      "shift"
+    ],
+    "input_size": "2x2",
+    "output_size": "4x4"
+  },
+  "task115": {
+    "solver": "solve_4be741c5",
+    "primitives": [
+      "apply",
+      "astuple",
+      "branch",
+      "crop",
+      "portrait"
+    ],
+    "input_size": "14x16",
+    "output_size": "1x3"
+  },
+  "task116": {
+    "solver": "solve_4c4377d9",
+    "primitives": [
+      "hmirror",
+      "vconcat"
+    ],
+    "input_size": "3x4",
+    "output_size": "6x4"
+  },
+  "task117": {
+    "solver": "solve_4c5c2cf0",
+    "primitives": [
+      "center",
+      "color",
+      "compose",
+      "extract",
+      "first",
+      "fork",
+      "hmirror",
+      "matcher",
+      "objects",
+      "paint",
+      "rbind",
+      "shift",
+      "subgrid",
+      "subtract",
+      "vmirror"
+    ],
+    "input_size": "14x14",
+    "output_size": "14x14"
+  },
+  "task118": {
+    "solver": "solve_50846271",
+    "primitives": [
+      "apply",
+      "chain",
+      "colorfilter",
+      "compose",
+      "fill",
+      "fork",
+      "halve",
+      "lbind",
+      "mapply",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "prapply",
+      "rbind",
+      "toivec",
+      "tojvec",
+      "valmax"
+    ],
+    "input_size": "20x22",
+    "output_size": "20x22"
+  },
+  "task119": {
+    "solver": "solve_508bd3b6",
+    "primitives": [
+      "add",
+      "argmax",
+      "argmin",
+      "branch",
+      "connect",
+      "double",
+      "equality",
+      "extract",
+      "fill",
+      "first",
+      "flip",
+      "index",
+      "last",
+      "multiply",
+      "objects",
+      "paint",
+      "rbind",
+      "subtract",
+      "ulcorner",
+      "urcorner",
+      "width"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task120": {
+    "solver": "solve_50cb2852",
+    "primitives": [
+      "compose",
+      "fill",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "13x15",
+    "output_size": "13x15"
+  },
+  "task121": {
+    "solver": "solve_5117e062",
+    "primitives": [
+      "extract",
+      "matcher",
+      "mostcolor",
+      "objects",
+      "replace",
+      "subgrid"
+    ],
+    "input_size": "13x13",
+    "output_size": "3x3"
+  },
+  "task122": {
+    "solver": "solve_5168d44c",
+    "primitives": [
+      "branch",
+      "equality",
+      "height",
+      "move",
+      "ofcolor",
+      "recolor"
+    ],
+    "input_size": "7x13",
+    "output_size": "7x13"
+  },
+  "task123": {
+    "solver": "solve_539a4f51",
+    "primitives": [
+      "asobject",
+      "astuple",
+      "branch",
+      "canvas",
+      "colorcount",
+      "crop",
+      "decrement",
+      "dmirror",
+      "hconcat",
+      "index",
+      "multiply",
+      "paint",
+      "positive",
+      "shape",
+      "vconcat",
+      "vupscale",
+      "width"
+    ],
+    "input_size": "5x5",
+    "output_size": "10x10"
+  },
+  "task124": {
+    "solver": "solve_53b68214",
+    "primitives": [
+      "add",
+      "apply",
+      "astuple",
+      "branch",
+      "canvas",
+      "decrement",
+      "first",
+      "interval",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "portrait",
+      "shape",
+      "shift",
+      "toivec",
+      "vperiod",
+      "width"
+    ],
+    "input_size": "6x10",
+    "output_size": "10x10"
+  },
+  "task125": {
+    "solver": "solve_543a7ed5",
+    "primitives": [
+      "colorfilter",
+      "fill",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task126": {
+    "solver": "solve_54d82841",
+    "primitives": [
+      "apply",
+      "compose",
+      "decrement",
+      "fill",
+      "height",
+      "lbind",
+      "objects"
+    ],
+    "input_size": "8x8",
+    "output_size": "8x8"
+  },
+  "task127": {
+    "solver": "solve_54d9e175",
+    "primitives": [
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "replace",
+      "sizefilter"
+    ],
+    "input_size": "3x11",
+    "output_size": "3x11"
+  },
+  "task128": {
+    "solver": "solve_5521c0d9",
+    "primitives": [
+      "chain",
+      "cover",
+      "fork",
+      "mapply",
+      "merge",
+      "objects",
+      "paint"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task129": {
+    "solver": "solve_5582e5ca",
+    "primitives": [
+      "canvas",
+      "mostcolor"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task130": {
+    "solver": "solve_5614dbcf",
+    "primitives": [
+      "downscale",
+      "replace"
+    ],
+    "input_size": "9x9",
+    "output_size": "3x3"
+  },
+  "task131": {
+    "solver": "solve_56dc2b01",
+    "primitives": [
+      "branch",
+      "colorfilter",
+      "crement",
+      "equality",
+      "first",
+      "gravitate",
+      "move",
+      "multiply",
+      "objects",
+      "ofcolor",
+      "paint",
+      "recolor",
+      "shift",
+      "sign"
+    ],
+    "input_size": "4x16",
+    "output_size": "4x16"
+  },
+  "task132": {
+    "solver": "solve_56ff96f3",
+    "primitives": [
+      "fgpartition",
+      "fork",
+      "mapply",
+      "paint"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task133": {
+    "solver": "solve_57aa92db",
+    "primitives": [
+      "argmax",
+      "chain",
+      "colorfilter",
+      "compose",
+      "fork",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "matcher",
+      "merge",
+      "normalize",
+      "objects",
+      "paint",
+      "rbind",
+      "sfilter",
+      "ulcorner"
+    ],
+    "input_size": "16x12",
+    "output_size": "16x12"
+  },
+  "task134": {
+    "solver": "solve_5ad4f10b",
+    "primitives": [
+      "argmax",
+      "color",
+      "divide",
+      "downscale",
+      "height",
+      "leastcolor",
+      "objects",
+      "replace",
+      "subgrid"
+    ],
+    "input_size": "20x24",
+    "output_size": "3x3"
+  },
+  "task135": {
+    "solver": "solve_5bd6f4ac",
+    "primitives": [
+      "crop",
+      "tojvec"
+    ],
+    "input_size": "9x9",
+    "output_size": "3x3"
+  },
+  "task136": {
+    "solver": "solve_5c0a986e",
+    "primitives": [
+      "fill",
+      "lrcorner",
+      "ofcolor",
+      "shoot",
+      "ulcorner"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task137": {
+    "solver": "solve_5c2c9af4",
+    "primitives": [
+      "apply",
+      "center",
+      "fill",
+      "interval",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "multiply",
+      "ofcolor",
+      "pair",
+      "shift",
+      "subtract",
+      "ulcorner"
+    ],
+    "input_size": "23x23",
+    "output_size": "23x23"
+  },
+  "task138": {
+    "solver": "solve_5daaa586",
+    "primitives": [
+      "argmax",
+      "branch",
+      "color",
+      "colorfilter",
+      "compose",
+      "extract",
+      "fgpartition",
+      "fill",
+      "greater",
+      "mfilter",
+      "objects",
+      "outbox",
+      "prapply",
+      "rbind",
+      "size",
+      "subgrid",
+      "toindices"
+    ],
+    "input_size": "22x22",
+    "output_size": "15x12"
+  },
+  "task139": {
+    "solver": "solve_60b61512",
+    "primitives": [
+      "fill",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task140": {
+    "solver": "solve_3c9b0459",
+    "primitives": [
+      "rot180"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task141": {
+    "solver": "solve_623ea044",
+    "primitives": [
+      "astuple",
+      "center",
+      "color",
+      "combine",
+      "fill",
+      "first",
+      "lbind",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task142": {
+    "solver": "solve_3af2c5a8",
+    "primitives": [
+      "hconcat",
+      "hmirror",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task143": {
+    "solver": "solve_63613498",
+    "primitives": [
+      "asindices",
+      "asobject",
+      "compose",
+      "crop",
+      "difference",
+      "fill",
+      "matcher",
+      "mfilter",
+      "normalize",
+      "objects",
+      "ofcolor",
+      "paint"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task144": {
+    "solver": "solve_6430c8c4",
+    "primitives": [
+      "astuple",
+      "bottomhalf",
+      "canvas",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "tophalf"
+    ],
+    "input_size": "9x4",
+    "output_size": "4x4"
+  },
+  "task145": {
+    "solver": "solve_6455b5f5",
+    "primitives": [
+      "argmax",
+      "colorfilter",
+      "fill",
+      "merge",
+      "objects",
+      "paint",
+      "recolor",
+      "sizefilter",
+      "valmin"
+    ],
+    "input_size": "18x13",
+    "output_size": "18x13"
+  },
+  "task146": {
+    "solver": "solve_662c240a",
+    "primitives": [
+      "compose",
+      "extract",
+      "fork",
+      "vsplit"
+    ],
+    "input_size": "9x3",
+    "output_size": "3x3"
+  },
+  "task147": {
+    "solver": "solve_67385a82",
+    "primitives": [
+      "colorfilter",
+      "difference",
+      "fill",
+      "merge",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task148": {
+    "solver": "solve_673ef223",
+    "primitives": [
+      "apply",
+      "argmin",
+      "branch",
+      "colorfilter",
+      "equality",
+      "fork",
+      "leftmost",
+      "mapply",
+      "objects",
+      "ofcolor",
+      "rbind",
+      "replace",
+      "shift",
+      "toivec",
+      "underfill"
+    ],
+    "input_size": "19x8",
+    "output_size": "19x8"
+  },
+  "task149": {
+    "solver": "solve_6773b310",
+    "primitives": [
+      "apply",
+      "astuple",
+      "compress",
+      "downscale",
+      "fill",
+      "fork",
+      "insert",
+      "matcher",
+      "mfilter",
+      "neighbors",
+      "rbind",
+      "replace",
+      "shift"
+    ],
+    "input_size": "11x11",
+    "output_size": "3x3"
+  },
+  "task150": {
+    "solver": "solve_67a3c6ac",
+    "primitives": [
+      "vmirror"
+    ],
+    "input_size": "4x4",
+    "output_size": "4x4"
+  },
+  "task151": {
+    "solver": "solve_67a423a3",
+    "primitives": [
+      "colorfilter",
+      "delta",
+      "fill",
+      "first",
+      "leastcolor",
+      "merge",
+      "neighbors",
+      "objects"
+    ],
+    "input_size": "4x4",
+    "output_size": "4x4"
+  },
+  "task152": {
+    "solver": "solve_3af2c5a8",
+    "primitives": [
+      "hconcat",
+      "hmirror",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task153": {
+    "solver": "solve_681b3aeb",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "canvas",
+      "color",
+      "normalize",
+      "objects",
+      "paint",
+      "rot270",
+      "rot90"
+    ],
+    "input_size": "10x10",
+    "output_size": "3x3"
+  },
+  "task154": {
+    "solver": "solve_6855a6e4",
+    "primitives": [
+      "add",
+      "apply",
+      "branch",
+      "colorfilter",
+      "compose",
+      "cover",
+      "extract",
+      "fgpartition",
+      "first",
+      "height",
+      "hmirror",
+      "matcher",
+      "merge",
+      "objects",
+      "ofcolor",
+      "paint",
+      "portrait",
+      "recolor",
+      "rot270",
+      "rot90",
+      "shift",
+      "subgrid",
+      "subtract",
+      "toivec",
+      "ulcorner",
+      "valmin"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task155": {
+    "solver": "solve_68b16354",
+    "primitives": [
+      "hmirror"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task156": {
+    "solver": "solve_694f12f3",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "colorfilter",
+      "compose",
+      "fill",
+      "objects"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task157": {
+    "solver": "solve_6a1e5592",
+    "primitives": [
+      "apply",
+      "asindices",
+      "astuple",
+      "chain",
+      "colorfilter",
+      "compose",
+      "cover",
+      "crop",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "ofcolor",
+      "rbind",
+      "width"
+    ],
+    "input_size": "10x15",
+    "output_size": "10x15"
+  },
+  "task158": {
+    "solver": "solve_6aa20dc0",
+    "primitives": [
+      "apply",
+      "argmax",
+      "compose",
+      "fork",
+      "initset",
+      "insert",
+      "interval",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "paint",
+      "product",
+      "rapply"
+    ],
+    "input_size": "20x19",
+    "output_size": "20x19"
+  },
+  "task159": {
+    "solver": "solve_6b9890af",
+    "primitives": [
+      "argmin",
+      "divide",
+      "normalize",
+      "objects",
+      "ofcolor",
+      "paint",
+      "shift",
+      "subgrid",
+      "upscale",
+      "width"
+    ],
+    "input_size": "18x21",
+    "output_size": "8x8"
+  },
+  "task160": {
+    "solver": "solve_6c434453",
+    "primitives": [
+      "apply",
+      "cover",
+      "dneighbors",
+      "fill",
+      "insert",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task161": {
+    "solver": "solve_6cdd2623",
+    "primitives": [
+      "box",
+      "chain",
+      "cover",
+      "fgpartition",
+      "fill",
+      "fork",
+      "leastcolor",
+      "merge",
+      "mfilter",
+      "ofcolor",
+      "prapply",
+      "rbind"
+    ],
+    "input_size": "11x22",
+    "output_size": "11x22"
+  },
+  "task162": {
+    "solver": "solve_6cf79266",
+    "primitives": [
+      "astuple",
+      "chain",
+      "fill",
+      "fork",
+      "initset",
+      "lbind",
+      "mapply",
+      "matcher",
+      "ofcolor",
+      "rbind",
+      "sfilter",
+      "toindices",
+      "upscale"
+    ],
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  "task163": {
+    "solver": "solve_6d0160f0",
+    "primitives": [
+      "asindices",
+      "astuple",
+      "branch",
+      "crop",
+      "first",
+      "greater",
+      "initset",
+      "insert",
+      "last",
+      "lbind",
+      "mapply",
+      "multiply",
+      "ofcolor",
+      "paint",
+      "product",
+      "recolor",
+      "replace",
+      "shift",
+      "toobject"
+    ],
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  "task164": {
+    "solver": "solve_6d0aefbc",
+    "primitives": [
+      "hconcat",
+      "vmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x6"
+  },
+  "task165": {
+    "solver": "solve_6d58a25d",
+    "primitives": [
+      "argmax",
+      "chain",
+      "color",
+      "compose",
+      "fork",
+      "increment",
+      "mapply",
+      "merge",
+      "objects",
+      "rbind",
+      "remove",
+      "sfilter",
+      "underfill",
+      "uppermost"
+    ],
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  "task166": {
+    "solver": "solve_6d75e8bb",
+    "primitives": [
+      "asobject",
+      "first",
+      "objects",
+      "paint",
+      "replace",
+      "shift",
+      "subgrid",
+      "ulcorner"
+    ],
+    "input_size": "14x10",
+    "output_size": "14x10"
+  },
+  "task167": {
+    "solver": "solve_6e02f1e3",
+    "primitives": [
+      "branch",
+      "canvas",
+      "connect",
+      "equality",
+      "fill",
+      "numcolors"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task168": {
+    "solver": "solve_6e19193c",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "leastcolor",
+      "mapply",
+      "matcher",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task169": {
+    "solver": "solve_6e82a1ae",
+    "primitives": [
+      "compose",
+      "fill",
+      "lbind",
+      "objects"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task170": {
+    "solver": "solve_6ecd11f4",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "divide",
+      "downscale",
+      "fill",
+      "objects",
+      "ofcolor",
+      "subgrid",
+      "width"
+    ],
+    "input_size": "27x21",
+    "output_size": "3x3"
+  },
+  "task171": {
+    "solver": "solve_6f8cd79b",
+    "primitives": [
+      "apply",
+      "asindices",
+      "fill",
+      "mfilter",
+      "rbind"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task172": {
+    "solver": "solve_6fa7a44f",
+    "primitives": [
+      "hmirror",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x3"
+  },
+  "task173": {
+    "solver": "solve_72322fa7",
+    "primitives": [
+      "compose",
+      "difference",
+      "fork",
+      "lbind",
+      "mapply",
+      "matcher",
+      "objects",
+      "paint",
+      "sfilter"
+    ],
+    "input_size": "13x22",
+    "output_size": "13x22"
+  },
+  "task174": {
+    "solver": "solve_72ca375d",
+    "primitives": [
+      "apply",
+      "extract",
+      "first",
+      "objects",
+      "pair",
+      "papply",
+      "rbind",
+      "totuple"
+    ],
+    "input_size": "10x10",
+    "output_size": "2x4"
+  },
+  "task175": {
+    "solver": "solve_73251a56",
+    "primitives": [
+      "apply",
+      "dmirror",
+      "fill",
+      "index",
+      "lbind",
+      "mostcolor",
+      "papply",
+      "replace",
+      "shoot"
+    ],
+    "input_size": "21x21",
+    "output_size": "21x21"
+  },
+  "task176": {
+    "solver": "solve_7447852a",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fill",
+      "interval",
+      "mapply",
+      "objects",
+      "order",
+      "pair",
+      "rbind",
+      "sfilter",
+      "size"
+    ],
+    "input_size": "3x10",
+    "output_size": "3x10"
+  },
+  "task177": {
+    "solver": "solve_7468f01a",
+    "primitives": [
+      "first",
+      "objects",
+      "subgrid",
+      "vmirror"
+    ],
+    "input_size": "10x15",
+    "output_size": "4x8"
+  },
+  "task178": {
+    "solver": "solve_746b3537",
+    "primitives": [
+      "apply",
+      "branch",
+      "chain",
+      "equality",
+      "objects",
+      "order",
+      "repeat"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x1"
+  },
+  "task179": {
+    "solver": "solve_74dd1130",
+    "primitives": [
+      "dmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task180": {
+    "solver": "solve_75b8110e",
+    "primitives": [
+      "bottomhalf",
+      "fork",
+      "lefthalf",
+      "paint",
+      "rbind",
+      "righthalf",
+      "tophalf"
+    ],
+    "input_size": "8x8",
+    "output_size": "4x4"
+  },
+  "task181": {
+    "solver": "solve_760b3cac",
+    "primitives": [
+      "branch",
+      "equality",
+      "fill",
+      "index",
+      "multiply",
+      "ofcolor",
+      "shift",
+      "tojvec",
+      "ulcorner",
+      "vmirror"
+    ],
+    "input_size": "6x9",
+    "output_size": "6x9"
+  },
+  "task182": {
+    "solver": "solve_776ffc46",
+    "primitives": [
+      "asobject",
+      "color",
+      "colorfilter",
+      "compose",
+      "extract",
+      "fill",
+      "fork",
+      "inbox",
+      "matcher",
+      "mfilter",
+      "normalize",
+      "objects",
+      "sfilter",
+      "subgrid",
+      "toindices"
+    ],
+    "input_size": "20x20",
+    "output_size": "20x20"
+  },
+  "task183": {
+    "solver": "solve_77fdfe62",
+    "primitives": [
+      "compress",
+      "fill",
+      "halve",
+      "ofcolor",
+      "replace",
+      "subgrid",
+      "upscale",
+      "width"
+    ],
+    "input_size": "8x8",
+    "output_size": "4x4"
+  },
+  "task184": {
+    "solver": "solve_780d0b14",
+    "primitives": [
+      "apply",
+      "asindices",
+      "chain",
+      "compose",
+      "fill",
+      "objects",
+      "paint",
+      "pair",
+      "rbind",
+      "rot270",
+      "rot90",
+      "sfilter",
+      "totuple"
+    ],
+    "input_size": "20x20",
+    "output_size": "2x2"
+  },
+  "task185": {
+    "solver": "solve_7837ac64",
+    "primitives": [
+      "argmax",
+      "chain",
+      "colorfilter",
+      "compose",
+      "downscale",
+      "fgpartition",
+      "first",
+      "fork",
+      "height",
+      "increment",
+      "interval",
+      "lbind",
+      "mapply",
+      "matcher",
+      "merge",
+      "objects",
+      "paint",
+      "power",
+      "rbind",
+      "remove",
+      "sfilter",
+      "subgrid"
+    ],
+    "input_size": "29x29",
+    "output_size": "3x3"
+  },
+  "task186": {
+    "solver": "solve_794b24be",
+    "primitives": [
+      "branch",
+      "canvas",
+      "connect",
+      "decrement",
+      "equality",
+      "fill",
+      "insert",
+      "ofcolor",
+      "size",
+      "tojvec"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task187": {
+    "solver": "solve_7b6016b9",
+    "primitives": [
+      "compose",
+      "fill",
+      "mfilter",
+      "objects",
+      "rbind",
+      "replace"
+    ],
+    "input_size": "23x23",
+    "output_size": "23x23"
+  },
+  "task188": {
+    "solver": "solve_7b7f7511",
+    "primitives": [
+      "branch",
+      "portrait"
+    ],
+    "input_size": "4x8",
+    "output_size": "4x4"
+  },
+  "task189": {
+    "solver": "solve_7c008303",
+    "primitives": [
+      "compress",
+      "fill",
+      "ofcolor",
+      "replace",
+      "subgrid",
+      "upscale"
+    ],
+    "input_size": "9x9",
+    "output_size": "6x6"
+  },
+  "task190": {
+    "solver": "solve_7ddcd7ec",
+    "primitives": [
+      "color",
+      "difference",
+      "fill",
+      "first",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task191": {
+    "solver": "solve_7df24a62",
+    "primitives": [
+      "apply",
+      "astuple",
+      "chain",
+      "combine",
+      "compose",
+      "fill",
+      "fork",
+      "height",
+      "lbind",
+      "matcher",
+      "mpapply",
+      "ofcolor",
+      "papply",
+      "rbind",
+      "rot180",
+      "rot270",
+      "rot90",
+      "subgrid",
+      "ulcorner",
+      "width"
+    ],
+    "input_size": "23x23",
+    "output_size": "23x23"
+  },
+  "task192": {
+    "solver": "solve_7e0986d6",
+    "primitives": [
+      "chain",
+      "fill",
+      "leastcolor",
+      "ofcolor",
+      "rbind",
+      "replace",
+      "sfilter"
+    ],
+    "input_size": "13x14",
+    "output_size": "13x14"
+  },
+  "task193": {
+    "solver": "solve_7f4411dc",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "leastcolor",
+      "ofcolor",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task194": {
+    "solver": "solve_46442a0e",
+    "primitives": [
+      "hconcat",
+      "rot180",
+      "rot270",
+      "rot90",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task195": {
+    "solver": "solve_80af3007",
+    "primitives": [
+      "cellwise",
+      "downscale",
+      "first",
+      "hconcat",
+      "objects",
+      "subgrid",
+      "upscale",
+      "vconcat"
+    ],
+    "input_size": "16x18",
+    "output_size": "9x9"
+  },
+  "task196": {
+    "solver": "solve_810b9b61",
+    "primitives": [
+      "apply",
+      "difference",
+      "fill",
+      "fork",
+      "mfilter",
+      "objects",
+      "sfilter"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task197": {
+    "solver": "solve_82819916",
+    "primitives": [
+      "argmax",
+      "compose",
+      "difference",
+      "fork",
+      "lbind",
+      "mapply",
+      "matcher",
+      "normalize",
+      "objects",
+      "paint",
+      "rbind",
+      "remove",
+      "sfilter"
+    ],
+    "input_size": "10x8",
+    "output_size": "10x8"
+  },
+  "task198": {
+    "solver": "solve_83302e8f",
+    "primitives": [
+      "colorfilter",
+      "difference",
+      "merge",
+      "objects",
+      "paint",
+      "recolor",
+      "sfilter"
+    ],
+    "input_size": "24x24",
+    "output_size": "24x24"
+  },
+  "task199": {
+    "solver": "solve_834ec97d",
+    "primitives": [
+      "add",
+      "asindices",
+      "compose",
+      "fill",
+      "first",
+      "interval",
+      "lbind",
+      "leftmost",
+      "objects",
+      "paint",
+      "rbind",
+      "sfilter",
+      "shift",
+      "subtract",
+      "uppermost"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task200": {
+    "solver": "solve_8403a5d5",
+    "primitives": [
+      "add",
+      "apply",
+      "asindices",
+      "color",
+      "compose",
+      "fill",
+      "first",
+      "increment",
+      "interval",
+      "lbind",
+      "leftmost",
+      "objects",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task201": {
+    "solver": "solve_846bdb03",
+    "primitives": [
+      "branch",
+      "equality",
+      "extract",
+      "index",
+      "lefthalf",
+      "matcher",
+      "merge",
+      "normalize",
+      "objects",
+      "other",
+      "paint",
+      "palette",
+      "rbind",
+      "remove",
+      "shift",
+      "subgrid"
+    ],
+    "input_size": "13x13",
+    "output_size": "6x8"
+  },
+  "task202": {
+    "solver": "solve_855e0971",
+    "primitives": [
+      "branch",
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "frontiers",
+      "lbind",
+      "mapply",
+      "matcher",
+      "partition",
+      "positive",
+      "rbind",
+      "rot90",
+      "sfilter",
+      "size"
+    ],
+    "input_size": "15x19",
+    "output_size": "15x19"
+  },
+  "task203": {
+    "solver": "solve_85c4e7cd",
+    "primitives": [
+      "apply",
+      "compose",
+      "mpapply",
+      "objects",
+      "order",
+      "paint"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task204": {
+    "solver": "solve_868de0fa",
+    "primitives": [
+      "compose",
+      "difference",
+      "fill",
+      "merge",
+      "objects",
+      "sfilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task205": {
+    "solver": "solve_8731374e",
+    "primitives": [
+      "argmax",
+      "compose",
+      "fill",
+      "fork",
+      "height",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "merge",
+      "objects",
+      "ofcolor",
+      "rot270",
+      "rot90",
+      "sfilter",
+      "subgrid",
+      "vsplit",
+      "width"
+    ],
+    "input_size": "17x23",
+    "output_size": "7x6"
+  },
+  "task206": {
+    "solver": "solve_88a10436",
+    "primitives": [
+      "center",
+      "colorfilter",
+      "difference",
+      "first",
+      "normalize",
+      "objects",
+      "paint",
+      "shift"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task207": {
+    "solver": "solve_88a62173",
+    "primitives": [
+      "astuple",
+      "bottomhalf",
+      "combine",
+      "leastcommon",
+      "lefthalf",
+      "righthalf",
+      "tophalf"
+    ],
+    "input_size": "5x5",
+    "output_size": "2x2"
+  },
+  "task208": {
+    "solver": "solve_890034e9",
+    "primitives": [
+      "fill",
+      "inbox",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "normalize",
+      "occurrences",
+      "ofcolor",
+      "recolor",
+      "shift"
+    ],
+    "input_size": "21x21",
+    "output_size": "21x21"
+  },
+  "task209": {
+    "solver": "solve_8a004b2b",
+    "primitives": [
+      "argmax",
+      "divide",
+      "merge",
+      "normalize",
+      "objects",
+      "ofcolor",
+      "paint",
+      "replace",
+      "shift",
+      "subgrid",
+      "ulcorner",
+      "upscale",
+      "width"
+    ],
+    "input_size": "17x17",
+    "output_size": "9x14"
+  },
+  "task210": {
+    "solver": "solve_6fa7a44f",
+    "primitives": [
+      "hmirror",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x3"
+  },
+  "task211": {
+    "solver": "solve_8d5021e8",
+    "primitives": [
+      "hconcat",
+      "hmirror",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "3x2",
+    "output_size": "9x4"
+  },
+  "task212": {
+    "solver": "solve_8d510a79",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "ofcolor",
+      "underfill",
+      "uppermost"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task213": {
+    "solver": "solve_8e1813be",
+    "primitives": [
+      "apply",
+      "branch",
+      "dedupe",
+      "first",
+      "objects",
+      "order",
+      "rbind",
+      "replace",
+      "size",
+      "vline"
+    ],
+    "input_size": "18x15",
+    "output_size": "6x6"
+  },
+  "task214": {
+    "solver": "solve_8e5a5113",
+    "primitives": [
+      "apply",
+      "astuple",
+      "crop",
+      "mpapply",
+      "paint",
+      "rot180",
+      "rot90"
+    ],
+    "input_size": "3x11",
+    "output_size": "3x11"
+  },
+  "task215": {
+    "solver": "solve_8eb1be9a",
+    "primitives": [
+      "apply",
+      "first",
+      "height",
+      "interval",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind"
+    ],
+    "input_size": "15x19",
+    "output_size": "15x19"
+  },
+  "task216": {
+    "solver": "solve_8efcae92",
+    "primitives": [
+      "argmax",
+      "colorfilter",
+      "compose",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "20x20",
+    "output_size": "5x6"
+  },
+  "task217": {
+    "solver": "solve_8f2ea7aa",
+    "primitives": [
+      "cellwise",
+      "hconcat",
+      "merge",
+      "objects",
+      "subgrid",
+      "upscale",
+      "vconcat"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task218": {
+    "solver": "solve_90c28cc7",
+    "primitives": [
+      "dedupe",
+      "first",
+      "objects",
+      "rot270",
+      "rot90",
+      "subgrid"
+    ],
+    "input_size": "21x21",
+    "output_size": "3x3"
+  },
+  "task219": {
+    "solver": "solve_90f3ed37",
+    "primitives": [
+      "apply",
+      "chain",
+      "compose",
+      "first",
+      "fork",
+      "interval",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "order",
+      "rbind",
+      "remove",
+      "underfill"
+    ],
+    "input_size": "15x10",
+    "output_size": "15x10"
+  },
+  "task220": {
+    "solver": "solve_913fb3ed",
+    "primitives": [
+      "fill",
+      "mapply",
+      "ofcolor"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task221": {
+    "solver": "solve_91413438",
+    "primitives": [
+      "apply",
+      "astuple",
+      "canvas",
+      "colorcount",
+      "compose",
+      "first",
+      "hconcat",
+      "hsplit",
+      "interval",
+      "lbind",
+      "mapply",
+      "merge",
+      "multiply",
+      "objects",
+      "paint",
+      "rbind",
+      "subtract"
+    ],
+    "input_size": "3x3",
+    "output_size": "12x12"
+  },
+  "task222": {
+    "solver": "solve_91714a58",
+    "primitives": [
+      "argmax",
+      "asindices",
+      "canvas",
+      "chain",
+      "compose",
+      "fill",
+      "lbind",
+      "mostcolor",
+      "objects",
+      "paint",
+      "rbind",
+      "sfilter",
+      "shape"
+    ],
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  "task223": {
+    "solver": "solve_9172f3a0",
+    "primitives": [
+      "upscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  "task224": {
+    "solver": "solve_928ad970",
+    "primitives": [
+      "fill",
+      "inbox",
+      "leastcolor",
+      "ofcolor",
+      "subgrid",
+      "trim"
+    ],
+    "input_size": "12x13",
+    "output_size": "12x13"
+  },
+  "task225": {
+    "solver": "solve_93b581b8",
+    "primitives": [
+      "astuple",
+      "chain",
+      "difference",
+      "fgpartition",
+      "fill",
+      "fork",
+      "mapply",
+      "shift",
+      "toindices",
+      "underpaint",
+      "upscale"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task226": {
+    "solver": "solve_941d9a10",
+    "primitives": [
+      "apply",
+      "astuple",
+      "colorfilter",
+      "compose",
+      "decrement",
+      "fill",
+      "lbind",
+      "objects",
+      "shape"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task227": {
+    "solver": "solve_94f9d214",
+    "primitives": [
+      "astuple",
+      "bottomhalf",
+      "canvas",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "tophalf"
+    ],
+    "input_size": "8x4",
+    "output_size": "4x4"
+  },
+  "task228": {
+    "solver": "solve_952a094c",
+    "primitives": [
+      "apply",
+      "argmax",
+      "chain",
+      "compose",
+      "corners",
+      "cover",
+      "fork",
+      "lbind",
+      "merge",
+      "objects",
+      "outbox",
+      "paint",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task229": {
+    "solver": "solve_9565186b",
+    "primitives": [
+      "argmax",
+      "canvas",
+      "objects",
+      "paint",
+      "shape"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task230": {
+    "solver": "solve_95990924",
+    "primitives": [
+      "apply",
+      "fill",
+      "objects"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task231": {
+    "solver": "solve_963e52fc",
+    "primitives": [
+      "asobject",
+      "astuple",
+      "crop",
+      "divide",
+      "double",
+      "height",
+      "hperiod",
+      "increment",
+      "merge",
+      "repeat",
+      "rot270",
+      "rot90",
+      "ulcorner",
+      "width"
+    ],
+    "input_size": "5x6",
+    "output_size": "5x12"
+  },
+  "task232": {
+    "solver": "solve_97999447",
+    "primitives": [
+      "apply",
+      "compose",
+      "fill",
+      "fork",
+      "interval",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "prapply",
+      "rbind"
+    ],
+    "input_size": "10x8",
+    "output_size": "10x8"
+  },
+  "task233": {
+    "solver": "solve_97a05b5b",
+    "primitives": [
+      "apply",
+      "argmax",
+      "astuple",
+      "chain",
+      "combine",
+      "compose",
+      "fork",
+      "lbind",
+      "mapply",
+      "matcher",
+      "objects",
+      "paint",
+      "palette",
+      "product",
+      "rbind",
+      "sfilter",
+      "subgrid",
+      "switch"
+    ],
+    "input_size": "24x19",
+    "output_size": "17x9"
+  },
+  "task234": {
+    "solver": "solve_98cf29f8",
+    "primitives": [
+      "backdrop",
+      "chain",
+      "color",
+      "cover",
+      "extract",
+      "fgpartition",
+      "fill",
+      "fork",
+      "gravitate",
+      "other",
+      "outbox",
+      "rbind",
+      "sfilter",
+      "shift"
+    ],
+    "input_size": "17x14",
+    "output_size": "17x14"
+  },
+  "task235": {
+    "solver": "solve_995c5fa3",
+    "primitives": [
+      "apply",
+      "astuple",
+      "chain",
+      "compose",
+      "fork",
+      "hsplit",
+      "hupscale",
+      "matcher",
+      "merge",
+      "power",
+      "rbind"
+    ],
+    "input_size": "4x14",
+    "output_size": "3x3"
+  },
+  "task236": {
+    "solver": "solve_99b1bc43",
+    "primitives": [
+      "bottomhalf",
+      "canvas",
+      "combine",
+      "difference",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "shape",
+      "tophalf"
+    ],
+    "input_size": "9x4",
+    "output_size": "4x4"
+  },
+  "task237": {
+    "solver": "solve_99fa7670",
+    "primitives": [
+      "add",
+      "compose",
+      "first",
+      "fork",
+      "initset",
+      "insert",
+      "mapply",
+      "objects",
+      "order",
+      "paint",
+      "pair",
+      "rbind",
+      "recolor",
+      "remove",
+      "shape",
+      "underpaint"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task238": {
+    "solver": "solve_9aec4887",
+    "primitives": [
+      "apply",
+      "argmin",
+      "chain",
+      "fill",
+      "fork",
+      "intersection",
+      "lbind",
+      "normalize",
+      "objects",
+      "other",
+      "paint",
+      "rbind",
+      "shift",
+      "subgrid",
+      "toindices"
+    ],
+    "input_size": "15x16",
+    "output_size": "6x6"
+  },
+  "task239": {
+    "solver": "solve_9af7a82c",
+    "primitives": [
+      "apply",
+      "chain",
+      "cmirror",
+      "compose",
+      "fork",
+      "lbind",
+      "merge",
+      "objects",
+      "order",
+      "rbind",
+      "valmax"
+    ],
+    "input_size": "3x3",
+    "output_size": "5x3"
+  },
+  "task240": {
+    "solver": "solve_9d9215db",
+    "primitives": [
+      "apply",
+      "argmax",
+      "chain",
+      "combine",
+      "compose",
+      "cover",
+      "fork",
+      "initset",
+      "insert",
+      "lbind",
+      "mapply",
+      "paint",
+      "papply",
+      "partition",
+      "rbind",
+      "rot180",
+      "rot270",
+      "rot90",
+      "sizefilter",
+      "tojvec",
+      "vmirror"
+    ],
+    "input_size": "19x19",
+    "output_size": "19x19"
+  },
+  "task241": {
+    "solver": "solve_74dd1130",
+    "primitives": [
+      "dmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task242": {
+    "solver": "solve_9ecd008a",
+    "primitives": [
+      "ofcolor",
+      "subgrid",
+      "vmirror"
+    ],
+    "input_size": "16x16",
+    "output_size": "3x3"
+  },
+  "task243": {
+    "solver": "solve_9edfc990",
+    "primitives": [
+      "colorfilter",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "paint",
+      "rbind",
+      "recolor"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task244": {
+    "solver": "solve_9f236235",
+    "primitives": [
+      "compress",
+      "downscale",
+      "objects",
+      "valmin",
+      "vmirror"
+    ],
+    "input_size": "19x19",
+    "output_size": "4x4"
+  },
+  "task245": {
+    "solver": "solve_a1570a43",
+    "primitives": [
+      "increment",
+      "move",
+      "ofcolor",
+      "recolor",
+      "subtract",
+      "ulcorner"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task246": {
+    "solver": "solve_a2fd1cf0",
+    "primitives": [
+      "astuple",
+      "combine",
+      "connect",
+      "leftmost",
+      "maximum",
+      "minimum",
+      "ofcolor",
+      "underfill",
+      "uppermost"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task247": {
+    "solver": "solve_a3325580",
+    "primitives": [
+      "apply",
+      "astuple",
+      "dmirror",
+      "merge",
+      "objects",
+      "order",
+      "rbind",
+      "sizefilter",
+      "valmax"
+    ],
+    "input_size": "10x10",
+    "output_size": "5x3"
+  },
+  "task248": {
+    "solver": "solve_a3df8b1e",
+    "primitives": [
+      "crop",
+      "fill",
+      "first",
+      "hmirror",
+      "objects",
+      "ofcolor",
+      "shape",
+      "shoot",
+      "subgrid",
+      "subtract",
+      "urcorner",
+      "vconcat"
+    ],
+    "input_size": "10x2",
+    "output_size": "10x2"
+  },
+  "task249": {
+    "solver": "solve_963e52fc",
+    "primitives": [
+      "asobject",
+      "astuple",
+      "crop",
+      "divide",
+      "double",
+      "height",
+      "hperiod",
+      "increment",
+      "merge",
+      "repeat",
+      "rot270",
+      "rot90",
+      "ulcorner",
+      "width"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x6"
+  },
+  "task250": {
+    "solver": "solve_a48eeaf7",
+    "primitives": [
+      "apply",
+      "compose",
+      "cover",
+      "fill",
+      "lbind",
+      "mapply",
+      "ofcolor",
+      "outbox"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task251": {
+    "solver": "solve_a5313dff",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fill",
+      "mfilter",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "8x8",
+    "output_size": "8x8"
+  },
+  "task252": {
+    "solver": "solve_a5f85a15",
+    "primitives": [
+      "apply",
+      "fill",
+      "interval",
+      "lbind",
+      "mapply",
+      "objects",
+      "papply"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task253": {
+    "solver": "solve_a61ba2ce",
+    "primitives": [
+      "chain",
+      "hconcat",
+      "lbind",
+      "matcher",
+      "objects",
+      "rbind",
+      "vconcat"
+    ],
+    "input_size": "13x13",
+    "output_size": "4x4"
+  },
+  "task254": {
+    "solver": "solve_a61f2674",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "combine",
+      "objects",
+      "paint",
+      "recolor",
+      "replace"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task255": {
+    "solver": "solve_a64e4611",
+    "primitives": [
+      "asindices",
+      "astuple",
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "interval",
+      "lbind",
+      "matcher",
+      "multiply",
+      "ofcolor",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "30x30",
+    "output_size": "30x30"
+  },
+  "task256": {
+    "solver": "solve_a65b410d",
+    "primitives": [
+      "mapply",
+      "ofcolor",
+      "rbind",
+      "shoot",
+      "underfill",
+      "urcorner"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task257": {
+    "solver": "solve_a68b268e",
+    "primitives": [
+      "bottomhalf",
+      "fill",
+      "lefthalf",
+      "ofcolor",
+      "righthalf",
+      "tophalf"
+    ],
+    "input_size": "9x9",
+    "output_size": "4x4"
+  },
+  "task258": {
+    "solver": "solve_a699fb00",
+    "primitives": [
+      "fill",
+      "intersection",
+      "ofcolor",
+      "shift"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task259": {
+    "solver": "solve_a740d043",
+    "primitives": [
+      "merge",
+      "objects",
+      "replace",
+      "subgrid"
+    ],
+    "input_size": "5x7",
+    "output_size": "3x3"
+  },
+  "task260": {
+    "solver": "solve_a78176bb",
+    "primitives": [
+      "apply",
+      "colorfilter",
+      "combine",
+      "compose",
+      "difference",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "matcher",
+      "objects",
+      "other",
+      "palette",
+      "rbind",
+      "remove",
+      "replace",
+      "sfilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task261": {
+    "solver": "solve_a79310a0",
+    "primitives": [
+      "first",
+      "move",
+      "objects",
+      "replace"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task262": {
+    "solver": "solve_a85d4709",
+    "primitives": [
+      "chain",
+      "fill",
+      "lbind",
+      "ofcolor"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task263": {
+    "solver": "solve_a87f7484",
+    "primitives": [
+      "apply",
+      "branch",
+      "decrement",
+      "dmirror",
+      "extract",
+      "hsplit",
+      "leastcommon",
+      "matcher",
+      "numcolors",
+      "portrait",
+      "rbind"
+    ],
+    "input_size": "9x3",
+    "output_size": "3x3"
+  },
+  "task264": {
+    "solver": "solve_a8c38be5",
+    "primitives": [
+      "apply",
+      "asindices",
+      "astuple",
+      "box",
+      "canvas",
+      "center",
+      "chain",
+      "combine",
+      "compose",
+      "corners",
+      "difference",
+      "fill",
+      "fork",
+      "inbox",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind",
+      "replace",
+      "sfilter"
+    ],
+    "input_size": "14x14",
+    "output_size": "9x9"
+  },
+  "task265": {
+    "solver": "solve_a8d7556c",
+    "primitives": [
+      "add",
+      "astuple",
+      "branch",
+      "equality",
+      "fill",
+      "index",
+      "initset",
+      "insert",
+      "lbind",
+      "mapply",
+      "occurrences",
+      "paint",
+      "recolor",
+      "toobject",
+      "upscale"
+    ],
+    "input_size": "18x18",
+    "output_size": "18x18"
+  },
+  "task266": {
+    "solver": "solve_a9f96cdd",
+    "primitives": [
+      "fill",
+      "ofcolor",
+      "replace",
+      "shift"
+    ],
+    "input_size": "3x5",
+    "output_size": "3x5"
+  },
+  "task267": {
+    "solver": "solve_aabf363d",
+    "primitives": [
+      "leastcolor",
+      "replace"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task268": {
+    "solver": "solve_aba27056",
+    "primitives": [
+      "apply",
+      "box",
+      "chain",
+      "compose",
+      "corners",
+      "delta",
+      "difference",
+      "fill",
+      "fork",
+      "interval",
+      "lbind",
+      "mapply",
+      "matcher",
+      "objects",
+      "ofcolor",
+      "position",
+      "product",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "7x7",
+    "output_size": "7x7"
+  },
+  "task269": {
+    "solver": "solve_ac0a08a4",
+    "primitives": [
+      "colorcount",
+      "subtract",
+      "upscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task270": {
+    "solver": "solve_ae3edfdc",
+    "primitives": [
+      "chain",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "replace"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task271": {
+    "solver": "solve_ae4f1146",
+    "primitives": [
+      "argmax",
+      "objects",
+      "rbind",
+      "subgrid"
+    ],
+    "input_size": "9x9",
+    "output_size": "3x3"
+  },
+  "task272": {
+    "solver": "solve_aedd82e4",
+    "primitives": [
+      "colorfilter",
+      "fill",
+      "merge",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task273": {
+    "solver": "solve_af902bf9",
+    "primitives": [
+      "compose",
+      "fill",
+      "fork",
+      "mapply",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "prapply",
+      "replace",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task274": {
+    "solver": "solve_b0c4d837",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "decrement",
+      "first",
+      "hconcat",
+      "height",
+      "hsplit",
+      "last",
+      "ofcolor",
+      "subtract",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "6x6",
+    "output_size": "3x3"
+  },
+  "task275": {
+    "solver": "solve_b190f7f5",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "branch",
+      "chain",
+      "fill",
+      "ofcolor",
+      "portrait",
+      "rbind",
+      "upscale",
+      "width"
+    ],
+    "input_size": "3x6",
+    "output_size": "9x9"
+  },
+  "task276": {
+    "solver": "solve_0d3d703e",
+    "primitives": [
+      "switch"
+    ],
+    "input_size": "3x4",
+    "output_size": "3x4"
+  },
+  "task277": {
+    "solver": "solve_b230c067",
+    "primitives": [
+      "apply",
+      "extract",
+      "fill",
+      "leastcommon",
+      "matcher",
+      "objects",
+      "replace",
+      "totuple"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task278": {
+    "solver": "solve_b27ca6d3",
+    "primitives": [
+      "fill",
+      "mapply",
+      "objects",
+      "sizefilter"
+    ],
+    "input_size": "15x18",
+    "output_size": "15x18"
+  },
+  "task279": {
+    "solver": "solve_b2862040",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fill",
+      "mfilter",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "9x11",
+    "output_size": "9x11"
+  },
+  "task280": {
+    "solver": "solve_b527c5c6",
+    "primitives": [
+      "chain",
+      "combine",
+      "compose",
+      "difference",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "matcher",
+      "objects",
+      "rbind",
+      "sfilter",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task281": {
+    "solver": "solve_b548a754",
+    "primitives": [
+      "backdrop",
+      "box",
+      "fill",
+      "leastcolor",
+      "merge",
+      "objects",
+      "replace"
+    ],
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  "task282": {
+    "solver": "solve_b60334d2",
+    "primitives": [
+      "fill",
+      "mapply",
+      "ofcolor",
+      "replace"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task283": {
+    "solver": "solve_b6afb2da",
+    "primitives": [
+      "colorfilter",
+      "fill",
+      "mapply",
+      "objects",
+      "replace"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task284": {
+    "solver": "solve_b7249182",
+    "primitives": [
+      "add",
+      "astuple",
+      "branch",
+      "centerofmass",
+      "color",
+      "combine",
+      "compose",
+      "connect",
+      "cover",
+      "fill",
+      "first",
+      "initset",
+      "insert",
+      "last",
+      "llcorner",
+      "lrcorner",
+      "merge",
+      "objects",
+      "order",
+      "paint",
+      "portrait",
+      "shift",
+      "toobject",
+      "ulcorner",
+      "urcorner"
+    ],
+    "input_size": "14x10",
+    "output_size": "14x10"
+  },
+  "task285": {
+    "solver": "solve_b775ac94",
+    "primitives": [
+      "chain",
+      "compose",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind"
+    ],
+    "input_size": "30x30",
+    "output_size": "30x30"
+  },
+  "task286": {
+    "solver": "solve_b782dc8a",
+    "primitives": [
+      "chain",
+      "colorfilter",
+      "difference",
+      "dneighbors",
+      "fill",
+      "first",
+      "leastcolor",
+      "mfilter",
+      "mostcolor",
+      "objects",
+      "ofcolor",
+      "rbind",
+      "sfilter",
+      "toindices",
+      "toobject"
+    ],
+    "input_size": "11x24",
+    "output_size": "11x24"
+  },
+  "task287": {
+    "solver": "solve_b8825c91",
+    "primitives": [
+      "apply",
+      "cmirror",
+      "dmirror",
+      "lbind",
+      "papply",
+      "replace"
+    ],
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  "task288": {
+    "solver": "solve_b8cdaf2b",
+    "primitives": [
+      "combine",
+      "leastcolor",
+      "ofcolor",
+      "shift",
+      "shoot",
+      "ulcorner",
+      "underfill",
+      "urcorner"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task289": {
+    "solver": "solve_b91ae062",
+    "primitives": [
+      "decrement",
+      "numcolors",
+      "upscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task290": {
+    "solver": "solve_b94a9452",
+    "primitives": [
+      "first",
+      "leastcolor",
+      "mostcolor",
+      "objects",
+      "subgrid",
+      "switch"
+    ],
+    "input_size": "12x13",
+    "output_size": "4x4"
+  },
+  "task291": {
+    "solver": "solve_b9b7f026",
+    "primitives": [
+      "argmin",
+      "canvas",
+      "color",
+      "extract",
+      "objects",
+      "rbind",
+      "remove"
+    ],
+    "input_size": "15x13",
+    "output_size": "1x1"
+  },
+  "task292": {
+    "solver": "solve_ba26e723",
+    "primitives": [
+      "compose",
+      "fill",
+      "fork",
+      "ofcolor",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "3x10",
+    "output_size": "3x10"
+  },
+  "task293": {
+    "solver": "solve_ba97ae07",
+    "primitives": [
+      "apply",
+      "backdrop",
+      "fill",
+      "mostcommon",
+      "objects",
+      "ofcolor",
+      "totuple"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task294": {
+    "solver": "solve_af902bf9",
+    "primitives": [
+      "compose",
+      "fill",
+      "fork",
+      "mapply",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "prapply",
+      "replace",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task295": {
+    "solver": "solve_bbc9ae5d",
+    "primitives": [
+      "fill",
+      "halve",
+      "mapply",
+      "ofcolor",
+      "other",
+      "palette",
+      "rbind",
+      "vupscale",
+      "width"
+    ],
+    "input_size": "1x6",
+    "output_size": "3x6"
+  },
+  "task296": {
+    "solver": "solve_bc1d5164",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "combine",
+      "crop",
+      "fill",
+      "leastcolor",
+      "mapply",
+      "rbind",
+      "tojvec"
+    ],
+    "input_size": "5x7",
+    "output_size": "3x3"
+  },
+  "task297": {
+    "solver": "solve_bd4472b8",
+    "primitives": [
+      "astuple",
+      "crop",
+      "dmirror",
+      "hupscale",
+      "merge",
+      "repeat",
+      "tophalf",
+      "vconcat",
+      "width"
+    ],
+    "input_size": "8x3",
+    "output_size": "8x3"
+  },
+  "task298": {
+    "solver": "solve_bda2d7a6",
+    "primitives": [
+      "apply",
+      "combine",
+      "last",
+      "mpapply",
+      "order",
+      "paint",
+      "partition",
+      "remove",
+      "repeat"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task299": {
+    "solver": "solve_bdad9b1f",
+    "primitives": [
+      "center",
+      "fill",
+      "hfrontier",
+      "intersection",
+      "ofcolor",
+      "vfrontier"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task300": {
+    "solver": "solve_1f85a75f",
+    "primitives": [
+      "argmax",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "7x13",
+    "output_size": "4x3"
+  },
+  "task301": {
+    "solver": "solve_beb8660c",
+    "primitives": [
+      "apply",
+      "canvas",
+      "compose",
+      "interval",
+      "mpapply",
+      "objects",
+      "order",
+      "paint",
+      "rot180",
+      "shape",
+      "size"
+    ],
+    "input_size": "10x7",
+    "output_size": "10x7"
+  },
+  "task302": {
+    "solver": "solve_c0f76784",
+    "primitives": [
+      "argmax",
+      "colorfilter",
+      "fill",
+      "merge",
+      "objects",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task303": {
+    "solver": "solve_c1d99e64",
+    "primitives": [
+      "fill",
+      "frontiers",
+      "merge"
+    ],
+    "input_size": "12x19",
+    "output_size": "12x19"
+  },
+  "task304": {
+    "solver": "solve_c3e719e8",
+    "primitives": [
+      "asindices",
+      "difference",
+      "fill",
+      "hconcat",
+      "mostcolor",
+      "ofcolor",
+      "upscale",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  "task305": {
+    "solver": "solve_0dfd9992",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "colorfilter",
+      "crop",
+      "decrement",
+      "difference",
+      "height",
+      "hperiod",
+      "lbind",
+      "mapply",
+      "merge",
+      "neighbors",
+      "paint",
+      "partition",
+      "toivec",
+      "tojvec",
+      "vperiod",
+      "width"
+    ],
+    "input_size": "16x16",
+    "output_size": "16x16"
+  },
+  "task306": {
+    "solver": "solve_c444b776",
+    "primitives": [
+      "argmin",
+      "backdrop",
+      "colorfilter",
+      "compose",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "paint",
+      "toobject"
+    ],
+    "input_size": "19x19",
+    "output_size": "19x19"
+  },
+  "task307": {
+    "solver": "solve_c59eb873",
+    "primitives": [
+      "upscale"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task308": {
+    "solver": "solve_c8cbb738",
+    "primitives": [
+      "apply",
+      "canvas",
+      "chain",
+      "fgpartition",
+      "fork",
+      "lbind",
+      "mapply",
+      "mostcolor",
+      "paint",
+      "valmax"
+    ],
+    "input_size": "12x11",
+    "output_size": "5x5"
+  },
+  "task309": {
+    "solver": "solve_c8f0f002",
+    "primitives": [
+      "replace"
+    ],
+    "input_size": "3x6",
+    "output_size": "3x6"
+  },
+  "task310": {
+    "solver": "solve_0b148d64",
+    "primitives": [
+      "argmin",
+      "partition",
+      "subgrid"
+    ],
+    "input_size": "24x24",
+    "output_size": "7x7"
+  },
+  "task311": {
+    "solver": "solve_6d0aefbc",
+    "primitives": [
+      "hconcat",
+      "vmirror"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x6"
+  },
+  "task312": {
+    "solver": "solve_c9f8e694",
+    "primitives": [
+      "astuple",
+      "crop",
+      "fill",
+      "height",
+      "hupscale",
+      "ofcolor",
+      "width"
+    ],
+    "input_size": "12x12",
+    "output_size": "12x12"
+  },
+  "task313": {
+    "solver": "solve_caa06a1f",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "canvas",
+      "decrement",
+      "double",
+      "first",
+      "hperiod",
+      "index",
+      "lbind",
+      "mapply",
+      "neighbors",
+      "objects",
+      "paint",
+      "power",
+      "shape",
+      "shift",
+      "vperiod"
+    ],
+    "input_size": "11x11",
+    "output_size": "11x11"
+  },
+  "task314": {
+    "solver": "solve_cbded52d",
+    "primitives": [
+      "chain",
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "product",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "8x8",
+    "output_size": "8x8"
+  },
+  "task315": {
+    "solver": "solve_cce03e0d",
+    "primitives": [
+      "combine",
+      "fill",
+      "hconcat",
+      "ofcolor",
+      "upscale",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "9x9"
+  },
+  "task316": {
+    "solver": "solve_cdecee7f",
+    "primitives": [
+      "apply",
+      "astuple",
+      "canvas",
+      "crop",
+      "dmirror",
+      "hconcat",
+      "hsplit",
+      "merge",
+      "objects",
+      "order",
+      "rbind",
+      "size",
+      "subtract",
+      "vconcat",
+      "vmirror"
+    ],
+    "input_size": "10x10",
+    "output_size": "3x3"
+  },
+  "task317": {
+    "solver": "solve_ce22a75a",
+    "primitives": [
+      "apply",
+      "fill",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "9x9",
+    "output_size": "9x9"
+  },
+  "task318": {
+    "solver": "solve_ce4f8723",
+    "primitives": [
+      "astuple",
+      "bottomhalf",
+      "canvas",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "tophalf"
+    ],
+    "input_size": "9x4",
+    "output_size": "4x4"
+  },
+  "task319": {
+    "solver": "solve_ce602527",
+    "primitives": [
+      "argmax",
+      "chain",
+      "compose",
+      "fgpartition",
+      "last",
+      "order",
+      "rbind",
+      "remove",
+      "subgrid",
+      "vmirror"
+    ],
+    "input_size": "17x17",
+    "output_size": "5x5"
+  },
+  "task320": {
+    "solver": "solve_ce9e57f2",
+    "primitives": [
+      "fill",
+      "fork",
+      "mapply",
+      "objects",
+      "switch"
+    ],
+    "input_size": "7x9",
+    "output_size": "7x9"
+  },
+  "task321": {
+    "solver": "solve_cf98881b",
+    "primitives": [
+      "fill",
+      "first",
+      "hsplit",
+      "last",
+      "ofcolor",
+      "remove"
+    ],
+    "input_size": "4x14",
+    "output_size": "4x4"
+  },
+  "task322": {
+    "solver": "solve_d037b0a7",
+    "primitives": [
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task323": {
+    "solver": "solve_d06dbe63",
+    "primitives": [
+      "apply",
+      "astuple",
+      "center",
+      "combine",
+      "connect",
+      "fill",
+      "interval",
+      "lbind",
+      "mapply",
+      "ofcolor",
+      "rot180",
+      "shift",
+      "subtract",
+      "toivec"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task324": {
+    "solver": "solve_d07ae81c",
+    "primitives": [
+      "apply",
+      "branch",
+      "center",
+      "color",
+      "compose",
+      "difference",
+      "equality",
+      "fill",
+      "first",
+      "fork",
+      "intersection",
+      "last",
+      "mapply",
+      "mostcolor",
+      "neighbors",
+      "objects",
+      "ofcolor",
+      "other",
+      "rbind",
+      "sizefilter",
+      "toobject"
+    ],
+    "input_size": "19x12",
+    "output_size": "19x12"
+  },
+  "task325": {
+    "solver": "solve_d0f5fe59",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "fill",
+      "objects",
+      "shoot",
+      "size"
+    ],
+    "input_size": "16x10",
+    "output_size": "4x4"
+  },
+  "task326": {
+    "solver": "solve_d10ecb37",
+    "primitives": [
+      "crop"
+    ],
+    "input_size": "6x6",
+    "output_size": "2x2"
+  },
+  "task327": {
+    "solver": "solve_d13f3404",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task328": {
+    "solver": "solve_d22278a0",
+    "primitives": [
+      "asindices",
+      "chain",
+      "compose",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "rbind"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task329": {
+    "solver": "solve_d23f8c26",
+    "primitives": [
+      "asindices",
+      "compose",
+      "fill",
+      "halve",
+      "matcher",
+      "sfilter",
+      "width"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task330": {
+    "solver": "solve_d2abd087",
+    "primitives": [
+      "compose",
+      "fill",
+      "matcher",
+      "mfilter",
+      "objects"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task331": {
+    "solver": "solve_d364b489",
+    "primitives": [
+      "fill",
+      "ofcolor",
+      "shift"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task332": {
+    "solver": "solve_d406998b",
+    "primitives": [
+      "compose",
+      "fill",
+      "ofcolor",
+      "sfilter",
+      "vmirror"
+    ],
+    "input_size": "3x10",
+    "output_size": "3x10"
+  },
+  "task333": {
+    "solver": "solve_d43fd935",
+    "primitives": [
+      "fork",
+      "mapply",
+      "objects",
+      "ofcolor",
+      "paint",
+      "rbind",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task334": {
+    "solver": "solve_d4469b4b",
+    "primitives": [
+      "branch",
+      "canvas",
+      "equality",
+      "fill",
+      "fork",
+      "other",
+      "palette"
+    ],
+    "input_size": "5x5",
+    "output_size": "3x3"
+  },
+  "task335": {
+    "solver": "solve_d4a91cb9",
+    "primitives": [
+      "astuple",
+      "combine",
+      "connect",
+      "first",
+      "last",
+      "ofcolor",
+      "underfill"
+    ],
+    "input_size": "10x12",
+    "output_size": "10x12"
+  },
+  "task336": {
+    "solver": "solve_d4f3cd78",
+    "primitives": [
+      "box",
+      "delta",
+      "difference",
+      "fill",
+      "first",
+      "ofcolor",
+      "position",
+      "shoot"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task337": {
+    "solver": "solve_d511f180",
+    "primitives": [
+      "switch"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task338": {
+    "solver": "solve_d5d6de2d",
+    "primitives": [
+      "compose",
+      "difference",
+      "fill",
+      "mapply",
+      "objects",
+      "replace",
+      "sfilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task339": {
+    "solver": "solve_a3325580",
+    "primitives": [
+      "apply",
+      "astuple",
+      "dmirror",
+      "merge",
+      "objects",
+      "order",
+      "rbind",
+      "sizefilter",
+      "valmax"
+    ],
+    "input_size": "3x3",
+    "output_size": "1x2"
+  },
+  "task340": {
+    "solver": "solve_1a07d186",
+    "primitives": [
+      "apply",
+      "chain",
+      "compose",
+      "cover",
+      "difference",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "paint",
+      "rbind",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "10x15",
+    "output_size": "10x15"
+  },
+  "task341": {
+    "solver": "solve_d6ad076f",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "branch",
+      "colorfilter",
+      "cover",
+      "equality",
+      "inbox",
+      "mapply",
+      "mfilter",
+      "multiply",
+      "objects",
+      "rbind",
+      "underfill",
+      "valmax",
+      "vmatching"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task342": {
+    "solver": "solve_d89b689b",
+    "primitives": [
+      "apply",
+      "compose",
+      "cover",
+      "fork",
+      "lbind",
+      "mapply",
+      "merge",
+      "objects",
+      "ofcolor",
+      "paint",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task343": {
+    "solver": "solve_d8c310e9",
+    "primitives": [
+      "first",
+      "hperiod",
+      "multiply",
+      "objects",
+      "paint",
+      "shift",
+      "tojvec"
+    ],
+    "input_size": "5x15",
+    "output_size": "5x15"
+  },
+  "task344": {
+    "solver": "solve_d90796e8",
+    "primitives": [
+      "compose",
+      "cover",
+      "fill",
+      "lbind",
+      "matcher",
+      "mfilter",
+      "objects",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task345": {
+    "solver": "solve_d9f24cd1",
+    "primitives": [
+      "apply",
+      "colorfilter",
+      "difference",
+      "fill",
+      "mapply",
+      "matcher",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "prapply",
+      "rbind",
+      "sfilter",
+      "shift",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task346": {
+    "solver": "solve_1cf80156",
+    "primitives": [
+      "first",
+      "objects",
+      "subgrid"
+    ],
+    "input_size": "5x9",
+    "output_size": "1x1"
+  },
+  "task347": {
+    "solver": "solve_dae9d2b5",
+    "primitives": [
+      "combine",
+      "fill",
+      "lefthalf",
+      "ofcolor",
+      "righthalf"
+    ],
+    "input_size": "3x6",
+    "output_size": "3x3"
+  },
+  "task348": {
+    "solver": "solve_db3e9e38",
+    "primitives": [
+      "chain",
+      "combine",
+      "fill",
+      "last",
+      "lrcorner",
+      "mapply",
+      "ofcolor",
+      "rbind",
+      "sfilter",
+      "shoot"
+    ],
+    "input_size": "5x7",
+    "output_size": "5x7"
+  },
+  "task349": {
+    "solver": "solve_db93a21d",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fill",
+      "mapply",
+      "matcher",
+      "objects",
+      "ofcolor",
+      "power",
+      "rbind",
+      "sfilter",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task350": {
+    "solver": "solve_dbc1a6ce",
+    "primitives": [
+      "apply",
+      "fork",
+      "mfilter",
+      "ofcolor",
+      "product",
+      "underfill"
+    ],
+    "input_size": "10x9",
+    "output_size": "10x9"
+  },
+  "task351": {
+    "solver": "solve_dc0a314f",
+    "primitives": [
+      "apply",
+      "cmirror",
+      "dmirror",
+      "lbind",
+      "ofcolor",
+      "papply",
+      "replace",
+      "subgrid"
+    ],
+    "input_size": "16x16",
+    "output_size": "5x5"
+  },
+  "task352": {
+    "solver": "solve_dc1df850",
+    "primitives": [
+      "colorfilter",
+      "fill",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "5x5",
+    "output_size": "5x5"
+  },
+  "task353": {
+    "solver": "solve_dc433765",
+    "primitives": [
+      "first",
+      "move",
+      "ofcolor",
+      "recolor",
+      "sign",
+      "subtract"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task354": {
+    "solver": "solve_ddf7fa4f",
+    "primitives": [
+      "colorfilter",
+      "compose",
+      "fork",
+      "mapply",
+      "objects",
+      "paint",
+      "product",
+      "sfilter",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task355": {
+    "solver": "solve_de1cd16c",
+    "primitives": [
+      "apply",
+      "argmax",
+      "canvas",
+      "difference",
+      "leastcolor",
+      "mostcolor",
+      "objects",
+      "rbind",
+      "sizefilter"
+    ],
+    "input_size": "17x13",
+    "output_size": "1x1"
+  },
+  "task356": {
+    "solver": "solve_ded97339",
+    "primitives": [
+      "apply",
+      "fork",
+      "mfilter",
+      "ofcolor",
+      "product",
+      "underfill"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task357": {
+    "solver": "solve_e179c5f4",
+    "primitives": [
+      "astuple",
+      "crop",
+      "decrement",
+      "fill",
+      "first",
+      "height",
+      "hmirror",
+      "merge",
+      "ofcolor",
+      "repeat",
+      "replace",
+      "shoot",
+      "subgrid",
+      "ulcorner",
+      "urcorner",
+      "width"
+    ],
+    "input_size": "10x2",
+    "output_size": "10x2"
+  },
+  "task358": {
+    "solver": "solve_e21d9049",
+    "primitives": [
+      "apply",
+      "asindices",
+      "compose",
+      "cover",
+      "difference",
+      "fork",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "merge",
+      "neighbors",
+      "objects",
+      "ofcolor",
+      "paint",
+      "power",
+      "sfilter",
+      "shape"
+    ],
+    "input_size": "12x11",
+    "output_size": "12x11"
+  },
+  "task359": {
+    "solver": "solve_e26a3af2",
+    "primitives": [
+      "apply",
+      "branch",
+      "compose",
+      "greater",
+      "repeat",
+      "rot90"
+    ],
+    "input_size": "13x17",
+    "output_size": "13x17"
+  },
+  "task360": {
+    "solver": "solve_e3497940",
+    "primitives": [
+      "lefthalf",
+      "merge",
+      "objects",
+      "paint",
+      "righthalf",
+      "vmirror"
+    ],
+    "input_size": "10x9",
+    "output_size": "10x4"
+  },
+  "task361": {
+    "solver": null,
+    "primitives": [],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task362": {
+    "solver": "solve_e48d4e1a",
+    "primitives": [
+      "add",
+      "canvas",
+      "chain",
+      "extract",
+      "fill",
+      "fork",
+      "leastcolor",
+      "matcher",
+      "multiply",
+      "ofcolor",
+      "rbind",
+      "shape",
+      "size"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task363": {
+    "solver": "solve_e5062a87",
+    "primitives": [
+      "apply",
+      "astuple",
+      "chain",
+      "initset",
+      "insert",
+      "lbind",
+      "merge",
+      "normalize",
+      "occurrences",
+      "ofcolor",
+      "paint",
+      "rbind",
+      "recolor",
+      "sfilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task364": {
+    "solver": "solve_e509e548",
+    "primitives": [
+      "chain",
+      "compose",
+      "fill",
+      "fork",
+      "lbind",
+      "mfilter",
+      "objects",
+      "rbind",
+      "replace"
+    ],
+    "input_size": "19x21",
+    "output_size": "19x21"
+  },
+  "task365": {
+    "solver": "solve_e50d258f",
+    "primitives": [
+      "argmax",
+      "astuple",
+      "canvas",
+      "objects",
+      "rbind",
+      "subgrid",
+      "vconcat",
+      "width"
+    ],
+    "input_size": "10x10",
+    "output_size": "5x4"
+  },
+  "task366": {
+    "solver": "solve_e6721834",
+    "primitives": [
+      "apply",
+      "branch",
+      "chain",
+      "compose",
+      "first",
+      "fork",
+      "last",
+      "lbind",
+      "matcher",
+      "merge",
+      "mfilter",
+      "mostcolor",
+      "objects",
+      "order",
+      "paint",
+      "portrait",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "30x17",
+    "output_size": "15x17"
+  },
+  "task367": {
+    "solver": "solve_e73095fd",
+    "primitives": [
+      "chain",
+      "colorfilter",
+      "fill",
+      "fork",
+      "lbind",
+      "matcher",
+      "mfilter",
+      "objects",
+      "ofcolor",
+      "rbind",
+      "sfilter"
+    ],
+    "input_size": "12x19",
+    "output_size": "12x19"
+  },
+  "task368": {
+    "solver": "solve_e76a88a6",
+    "primitives": [
+      "apply",
+      "argmax",
+      "lbind",
+      "mapply",
+      "normalize",
+      "objects",
+      "paint",
+      "remove"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task369": {
+    "solver": "solve_e8593010",
+    "primitives": [
+      "fill",
+      "merge",
+      "objects",
+      "replace",
+      "sizefilter"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task370": {
+    "solver": "solve_e8dc4411",
+    "primitives": [
+      "apply",
+      "branch",
+      "equality",
+      "fill",
+      "fork",
+      "intersection",
+      "interval",
+      "lbind",
+      "leastcolor",
+      "mapply",
+      "multiply",
+      "ofcolor",
+      "position",
+      "shape"
+    ],
+    "input_size": "12x14",
+    "output_size": "12x14"
+  },
+  "task371": {
+    "solver": "solve_e9614598",
+    "primitives": [
+      "dneighbors",
+      "fill",
+      "fork",
+      "halve",
+      "insert",
+      "ofcolor"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task372": {
+    "solver": "solve_e98196ab",
+    "primitives": [
+      "bottomhalf",
+      "merge",
+      "objects",
+      "paint",
+      "tophalf"
+    ],
+    "input_size": "11x11",
+    "output_size": "5x11"
+  },
+  "task373": {
+    "solver": "solve_e9afcf9a",
+    "primitives": [
+      "astuple",
+      "crop",
+      "hconcat",
+      "hmirror"
+    ],
+    "input_size": "2x6",
+    "output_size": "2x6"
+  },
+  "task374": {
+    "solver": "solve_ea32f347",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "fill",
+      "objects",
+      "replace"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task375": {
+    "solver": "solve_623ea044",
+    "primitives": [
+      "astuple",
+      "center",
+      "color",
+      "combine",
+      "fill",
+      "first",
+      "lbind",
+      "mapply",
+      "objects"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task376": {
+    "solver": "solve_eb281b96",
+    "primitives": [
+      "astuple",
+      "crop",
+      "decrement",
+      "double",
+      "height",
+      "hmirror",
+      "vconcat",
+      "width"
+    ],
+    "input_size": "3x17",
+    "output_size": "9x17"
+  },
+  "task377": {
+    "solver": "solve_eb5a1d5d",
+    "primitives": [
+      "compose",
+      "dmirror",
+      "fork"
+    ],
+    "input_size": "23x27",
+    "output_size": "5x5"
+  },
+  "task378": {
+    "solver": "solve_ec883f72",
+    "primitives": [
+      "argmax",
+      "color",
+      "combine",
+      "fork",
+      "llcorner",
+      "lrcorner",
+      "objects",
+      "other",
+      "palette",
+      "remove",
+      "shoot",
+      "ulcorner",
+      "underfill",
+      "urcorner"
+    ],
+    "input_size": "6x6",
+    "output_size": "6x6"
+  },
+  "task379": {
+    "solver": "solve_ecdecbb3",
+    "primitives": [
+      "apply",
+      "colorfilter",
+      "compose",
+      "fill",
+      "fork",
+      "intersection",
+      "lbind",
+      "mapply",
+      "mfilter",
+      "objects",
+      "product"
+    ],
+    "input_size": "13x13",
+    "output_size": "13x13"
+  },
+  "task380": {
+    "solver": "solve_ed36ccf7",
+    "primitives": [
+      "rot270"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task381": {
+    "solver": "solve_ef135b50",
+    "primitives": [
+      "asobject",
+      "compose",
+      "fill",
+      "fork",
+      "intersection",
+      "mapply",
+      "ofcolor",
+      "paint",
+      "power",
+      "product",
+      "sfilter",
+      "shift",
+      "trim"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task382": {
+    "solver": "solve_f15e1fac",
+    "primitives": [
+      "apply",
+      "branch",
+      "chain",
+      "compose",
+      "equality",
+      "fill",
+      "fork",
+      "height",
+      "increment",
+      "insert",
+      "interval",
+      "lbind",
+      "leftmost",
+      "mapply",
+      "merge",
+      "ofcolor",
+      "order",
+      "pair",
+      "papply",
+      "portrait",
+      "rbind",
+      "size",
+      "uppermost"
+    ],
+    "input_size": "17x12",
+    "output_size": "17x12"
+  },
+  "task383": {
+    "solver": "solve_f1cefba8",
+    "primitives": [
+      "asindices",
+      "combine",
+      "difference",
+      "fill",
+      "first",
+      "fork",
+      "intersection",
+      "leastcolor",
+      "lowermost",
+      "mapply",
+      "matcher",
+      "objects",
+      "ofcolor",
+      "other",
+      "palette",
+      "power",
+      "remove",
+      "sfilter",
+      "shift",
+      "subgrid",
+      "ulcorner",
+      "uppermost"
+    ],
+    "input_size": "19x13",
+    "output_size": "19x13"
+  },
+  "task384": {
+    "solver": "solve_f25fbde4",
+    "primitives": [
+      "first",
+      "objects",
+      "subgrid",
+      "upscale"
+    ],
+    "input_size": "9x9",
+    "output_size": "6x8"
+  },
+  "task385": {
+    "solver": "solve_f25ffba3",
+    "primitives": [
+      "bottomhalf",
+      "hmirror",
+      "vconcat"
+    ],
+    "input_size": "10x4",
+    "output_size": "10x4"
+  },
+  "task386": {
+    "solver": "solve_f2829549",
+    "primitives": [
+      "canvas",
+      "fill",
+      "intersection",
+      "lefthalf",
+      "ofcolor",
+      "righthalf",
+      "shape"
+    ],
+    "input_size": "4x7",
+    "output_size": "4x3"
+  },
+  "task387": {
+    "solver": "solve_f35d900a",
+    "primitives": [
+      "box",
+      "chain",
+      "compose",
+      "difference",
+      "fill",
+      "fork",
+      "lbind",
+      "mapply",
+      "objects",
+      "paint",
+      "palette",
+      "rbind",
+      "remove",
+      "sfilter"
+    ],
+    "input_size": "14x14",
+    "output_size": "14x14"
+  },
+  "task388": {
+    "solver": "solve_f5b8619d",
+    "primitives": [
+      "hconcat",
+      "leastcolor",
+      "mapply",
+      "ofcolor",
+      "underfill",
+      "vconcat"
+    ],
+    "input_size": "3x3",
+    "output_size": "6x6"
+  },
+  "task389": {
+    "solver": "solve_f76d97a5",
+    "primitives": [
+      "first",
+      "last",
+      "palette",
+      "replace",
+      "switch"
+    ],
+    "input_size": "3x3",
+    "output_size": "3x3"
+  },
+  "task390": {
+    "solver": "solve_f8a8fe49",
+    "primitives": [
+      "apply",
+      "branch",
+      "colorfilter",
+      "compose",
+      "double",
+      "first",
+      "increment",
+      "invert",
+      "last",
+      "objects",
+      "ofcolor",
+      "paint",
+      "portrait",
+      "replace",
+      "shift",
+      "subgrid",
+      "trim",
+      "ulcorner"
+    ],
+    "input_size": "15x15",
+    "output_size": "15x15"
+  },
+  "task391": {
+    "solver": "solve_f8b3ba0a",
+    "primitives": [
+      "apply",
+      "astuple",
+      "compose",
+      "compress",
+      "crop",
+      "lbind",
+      "merge",
+      "order",
+      "palette",
+      "rbind"
+    ],
+    "input_size": "13x13",
+    "output_size": "3x1"
+  },
+  "task392": {
+    "solver": "solve_f8c80d96",
+    "primitives": [
+      "argmax",
+      "argmin",
+      "branch",
+      "chain",
+      "colorfilter",
+      "equality",
+      "fill",
+      "leastcolor",
+      "objects",
+      "power",
+      "replace",
+      "size"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task393": {
+    "solver": "solve_f8b3ba0a",
+    "primitives": [
+      "apply",
+      "astuple",
+      "compose",
+      "compress",
+      "crop",
+      "lbind",
+      "merge",
+      "order",
+      "palette",
+      "rbind"
+    ],
+    "input_size": "12x12",
+    "output_size": "3x1"
+  },
+  "task394": {
+    "solver": "solve_f9012d9b",
+    "primitives": [
+      "apply",
+      "asobject",
+      "astuple",
+      "chain",
+      "extract",
+      "hperiod",
+      "hsplit",
+      "lbind",
+      "mapply",
+      "mfilter",
+      "neighbors",
+      "objects",
+      "ofcolor",
+      "paint",
+      "rbind",
+      "subgrid",
+      "vperiod",
+      "vsplit"
+    ],
+    "input_size": "5x5",
+    "output_size": "2x2"
+  },
+  "task395": {
+    "solver": "solve_fafffa47",
+    "primitives": [
+      "bottomhalf",
+      "canvas",
+      "fill",
+      "intersection",
+      "ofcolor",
+      "shape",
+      "tophalf"
+    ],
+    "input_size": "6x3",
+    "output_size": "3x3"
+  },
+  "task396": {
+    "solver": "solve_fcb5c309",
+    "primitives": [
+      "argmax",
+      "color",
+      "colorfilter",
+      "difference",
+      "leastcolor",
+      "objects",
+      "replace",
+      "subgrid"
+    ],
+    "input_size": "13x13",
+    "output_size": "7x7"
+  },
+  "task397": {
+    "solver": "solve_fcc82909",
+    "primitives": [
+      "compose",
+      "fill",
+      "fork",
+      "mapply",
+      "objects",
+      "rbind"
+    ],
+    "input_size": "10x10",
+    "output_size": "10x10"
+  },
+  "task398": {
+    "solver": "solve_feca6190",
+    "primitives": [
+      "astuple",
+      "canvas",
+      "compose",
+      "fork",
+      "hmirror",
+      "mapply",
+      "multiply",
+      "objects",
+      "paint",
+      "rbind",
+      "size"
+    ],
+    "input_size": "1x5",
+    "output_size": "10x10"
+  },
+  "task399": {
+    "solver": "solve_ff28f65a",
+    "primitives": [
+      "apply",
+      "astuple",
+      "canvas",
+      "double",
+      "fill",
+      "hsplit",
+      "interval",
+      "merge",
+      "objects",
+      "size"
+    ],
+    "input_size": "5x5",
+    "output_size": "3x3"
+  },
+  "task400": {
+    "solver": "solve_ff805c23",
+    "primitives": [
+      "branch",
+      "contained",
+      "hmirror",
+      "ofcolor",
+      "palette",
+      "subgrid",
+      "vmirror"
+    ],
+    "input_size": "24x24",
+    "output_size": "5x5"
+  }
+}

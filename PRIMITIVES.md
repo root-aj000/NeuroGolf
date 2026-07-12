@@ -64,3 +64,38 @@ July 8, 2026 - Team Merger Deadline. This is the last day participants may join 
 July 15, 2026 - Final Submission Deadline.
 
 All deadlines are at 11:59 PM UTC on the corresponding day unless otherwise noted. The competition organizers reserve the right to update the contest timeline if they deem it necessary.
+
+
+
+
+
+
+
+Now that you have mapped your domain-specific language (DSL) to ONNX operators and usable functions, you have built the foundational building blocks. Since solving a single task requires a chain of 7–8 primitives, your next major phase is Composition and Execution. [1, 2, 3] 
+Here is the step-by-step roadmap of what to do next:
+## 1. Build a Computational Graph
+we need a way to chain these 7–8 primitive operations together dynamically.
+
+* Define Nodes: Treat each DSL primitive or ONNX operator as a node in a graph.
+* Define Edges: Connect the output tensor of one operator to the input tensor of the next.
+* Use ONNX Graph: Utilize the onnx.helper library in Python to programmatically build an onnx.ModelProto by sequencing your mapped operators. [4, 5] 
+
+## 2. Implement an Orchestrator / Solver
+we need a system that decides which 7–8 primitives to combine to solve a specific task.
+
+* Rule-Based Engine: If the tasks follow predictable logic, write a compiler or translator that maps a high-level task definition directly to the correct sequence of primitives.
+* Search / Synthesis Engine: If the tasks are generative or algorithmic, use a search algorithm (like Beam Search, Genetic Algorithms, or Program Synthesis) to find the valid sequence of 7–8 operators that transforms your initial input into the desired output.
+
+## 3. Create a Validation and Testing Pipeline
+Before running complex chains, ensure individual and combined operations are correct.
+
+* Unit Tests: Validate that each of your mapped ONNX operators produces the exact same output as your original DSL primitive.
+* Shape Inference: Run ONNX shape inference (onnx.shape_inference.infer_shapes) across the 7–8 operator chain to catch tensor dimension mismatches before execution. [6] 
+
+## 4. Execute and Optimize
+Once the graph is validated, you need to run it efficiently.
+
+* Choose a Runtime: Pass your generated 7–8 operator ONNX graph to ONNX Runtime (ORT) for execution.
+* Graph Optimizations: ONNX Runtime will automatically optimize your chain (e.g., fusing consecutive operators like MatMul + Add into a single operation to speed up execution). [7] 
+
+------------------------------

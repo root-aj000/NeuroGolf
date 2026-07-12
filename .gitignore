@@ -9,3 +9,5 @@ venv/
 neurogolf-2026/
 *.zip
 arc-dsl/
+*.pyc
+arc-dsl/__pycache__/*
